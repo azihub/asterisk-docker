@@ -1,0 +1,761 @@
+[Aug  9 11:44:29] Asterisk 18.5.1 built by root @ c47582108194 on a x86_64 running Linux on 2021-08-09 11:19:37 UTC
+[Aug  9 11:44:29] NOTICE[9] loader.c: 331 modules will be loaded.
+[Aug  9 11:44:29] WARNING[9] res_config_mysql.c: MySQL RealTime: No database user found, using 'asterisk' as default.
+[Aug  9 11:44:29] WARNING[9] res_config_mysql.c: MySQL RealTime: No database password found, using 'asterisk' as default.
+[Aug  9 11:44:29] WARNING[9] res_config_mysql.c: MySQL RealTime: No database host found, using localhost via socket.
+[Aug  9 11:44:29] WARNING[9] res_config_mysql.c: MySQL RealTime: No database name found, using 'asterisk' as default.
+[Aug  9 11:44:29] WARNING[9] res_config_mysql.c: MySQL RealTime: No database port found, using 3306 as default.
+[Aug  9 11:44:29] WARNING[9] res_config_mysql.c: MySQL RealTime: No database socket found (and unable to detect a suitable path).
+[Aug  9 11:44:29] NOTICE[9] cdr.c: CDR simple logging enabled.
+[Aug  9 11:44:29] WARNING[9] res_phoneprov.c: Unable to find a valid server address or name.
+[Aug  9 11:44:29] NOTICE[9] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[Aug  9 11:44:29] NOTICE[9] chan_skinny.c: Configuring skinny from skinny.conf
+[Aug  9 11:44:29] ERROR[9] ari/config.c: No configured users for ARI
+[Aug  9 11:44:29] NOTICE[9] confbridge/conf_config_parser.c: Adding default_menu menu to app_confbridge
+[Aug  9 11:44:29] NOTICE[9] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[Aug  9 11:44:29] WARNING[9] loader.c: Some non-required modules failed to load.
+[Aug  9 11:44:29] WARNING[9] loader.c: Module 'res_monitor' has been loaded but may be removed in a future release. Its replacement is 'app_mixmonitor'.
+[Aug  9 11:44:29] WARNING[9] loader.c: Module 'res_adsi' has been loaded but may be removed in a future release.
+[Aug  9 11:44:29] WARNING[9] loader.c: Module 'app_url' has been loaded but may be removed in a future release.
+[Aug  9 11:44:29] WARNING[9] loader.c: Module 'app_image' has been loaded but may be removed in a future release.
+[Aug  9 11:44:29] WARNING[9] loader.c: Module 'chan_oss' has been loaded but may be removed in a future release.
+[Aug  9 11:44:30] WARNING[9] loader.c: Module 'app_getcpeid' has been loaded but may be removed in a future release.
+[Aug  9 11:44:30] WARNING[9] loader.c: Module 'cdr_mysql' has been loaded but may be removed in a future release. Its replacement is 'cdr_adaptive_odbc'.
+[Aug  9 11:44:30] WARNING[9] loader.c: Module 'app_adsiprog' has been loaded but may be removed in a future release.
+[Aug  9 11:44:30] WARNING[9] loader.c: Module 'app_mysql' has been loaded but may be removed in a future release. Its replacement is 'func_odbc'.
+[Aug  9 11:44:30] WARNING[9] loader.c: Module 'app_ices' has been loaded but may be removed in a future release.
+[Aug  9 11:44:30] WARNING[9] loader.c: Module 'app_nbscat' has been loaded but may be removed in a future release.
+[Aug  9 11:44:30] ERROR[9] loader.c: cel_sqlite3_custom declined to load.
+[Aug  9 11:44:30] ERROR[9] loader.c: cdr_sqlite3_custom declined to load.
+[Aug  9 11:44:55] Asterisk 18.5.1 built by root @ c47582108194 on a x86_64 running Linux on 2021-08-09 11:19:37 UTC
+[Aug  9 11:44:55] NOTICE[9] loader.c: 331 modules will be loaded.
+[Aug  9 11:44:55] WARNING[9] res_config_mysql.c: MySQL RealTime: No database user found, using 'asterisk' as default.
+[Aug  9 11:44:55] WARNING[9] res_config_mysql.c: MySQL RealTime: No database password found, using 'asterisk' as default.
+[Aug  9 11:44:55] WARNING[9] res_config_mysql.c: MySQL RealTime: No database host found, using localhost via socket.
+[Aug  9 11:44:55] WARNING[9] res_config_mysql.c: MySQL RealTime: No database name found, using 'asterisk' as default.
+[Aug  9 11:44:55] WARNING[9] res_config_mysql.c: MySQL RealTime: No database port found, using 3306 as default.
+[Aug  9 11:44:55] WARNING[9] res_config_mysql.c: MySQL RealTime: No database socket found (and unable to detect a suitable path).
+[Aug  9 11:44:55] NOTICE[9] cdr.c: CDR simple logging enabled.
+[Aug  9 11:44:55] WARNING[9] res_phoneprov.c: Unable to find a valid server address or name.
+[Aug  9 11:44:55] NOTICE[9] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[Aug  9 11:44:55] NOTICE[9] chan_skinny.c: Configuring skinny from skinny.conf
+[Aug  9 11:44:55] ERROR[9] ari/config.c: No configured users for ARI
+[Aug  9 11:44:55] NOTICE[9] confbridge/conf_config_parser.c: Adding default_menu menu to app_confbridge
+[Aug  9 11:44:55] NOTICE[9] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[Aug  9 11:44:55] WARNING[9] loader.c: Some non-required modules failed to load.
+[Aug  9 11:44:55] WARNING[9] loader.c: Module 'res_monitor' has been loaded but may be removed in a future release. Its replacement is 'app_mixmonitor'.
+[Aug  9 11:44:56] WARNING[9] loader.c: Module 'res_adsi' has been loaded but may be removed in a future release.
+[Aug  9 11:44:56] WARNING[9] loader.c: Module 'app_url' has been loaded but may be removed in a future release.
+[Aug  9 11:44:56] WARNING[9] loader.c: Module 'app_image' has been loaded but may be removed in a future release.
+[Aug  9 11:44:56] WARNING[9] loader.c: Module 'chan_oss' has been loaded but may be removed in a future release.
+[Aug  9 11:44:56] WARNING[9] loader.c: Module 'app_getcpeid' has been loaded but may be removed in a future release.
+[Aug  9 11:44:56] WARNING[9] loader.c: Module 'cdr_mysql' has been loaded but may be removed in a future release. Its replacement is 'cdr_adaptive_odbc'.
+[Aug  9 11:44:56] WARNING[9] loader.c: Module 'app_adsiprog' has been loaded but may be removed in a future release.
+[Aug  9 11:44:56] WARNING[9] loader.c: Module 'app_mysql' has been loaded but may be removed in a future release. Its replacement is 'func_odbc'.
+[Aug  9 11:44:56] WARNING[9] loader.c: Module 'app_ices' has been loaded but may be removed in a future release.
+[Aug  9 11:44:56] WARNING[9] loader.c: Module 'app_nbscat' has been loaded but may be removed in a future release.
+[Aug  9 11:44:56] ERROR[9] loader.c: cel_sqlite3_custom declined to load.
+[Aug  9 11:44:56] ERROR[9] loader.c: cdr_sqlite3_custom declined to load.
+[Aug  9 11:50:19] Asterisk 18.5.1 built by root @ c47582108194 on a x86_64 running Linux on 2021-08-09 11:19:37 UTC
+[Aug  9 11:50:19] NOTICE[8] loader.c: 331 modules will be loaded.
+[Aug  9 11:50:19] WARNING[8] res_config_mysql.c: MySQL RealTime: No database user found, using 'asterisk' as default.
+[Aug  9 11:50:19] WARNING[8] res_config_mysql.c: MySQL RealTime: No database password found, using 'asterisk' as default.
+[Aug  9 11:50:19] WARNING[8] res_config_mysql.c: MySQL RealTime: No database host found, using localhost via socket.
+[Aug  9 11:50:19] WARNING[8] res_config_mysql.c: MySQL RealTime: No database name found, using 'asterisk' as default.
+[Aug  9 11:50:19] WARNING[8] res_config_mysql.c: MySQL RealTime: No database port found, using 3306 as default.
+[Aug  9 11:50:19] WARNING[8] res_config_mysql.c: MySQL RealTime: No database socket found (and unable to detect a suitable path).
+[Aug  9 11:50:19] NOTICE[8] cdr.c: CDR simple logging enabled.
+[Aug  9 11:50:19] WARNING[8] res_phoneprov.c: Unable to find a valid server address or name.
+[Aug  9 11:50:19] NOTICE[8] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[Aug  9 11:50:19] NOTICE[8] chan_skinny.c: Configuring skinny from skinny.conf
+[Aug  9 11:50:19] ERROR[8] ari/config.c: No configured users for ARI
+[Aug  9 11:50:20] NOTICE[8] confbridge/conf_config_parser.c: Adding default_menu menu to app_confbridge
+[Aug  9 11:50:20] NOTICE[8] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[Aug  9 11:50:20] WARNING[8] loader.c: Some non-required modules failed to load.
+[Aug  9 11:50:20] WARNING[8] loader.c: Module 'res_monitor' has been loaded but may be removed in a future release. Its replacement is 'app_mixmonitor'.
+[Aug  9 11:50:20] WARNING[8] loader.c: Module 'res_adsi' has been loaded but may be removed in a future release.
+[Aug  9 11:50:20] WARNING[8] loader.c: Module 'app_url' has been loaded but may be removed in a future release.
+[Aug  9 11:50:20] WARNING[8] loader.c: Module 'app_image' has been loaded but may be removed in a future release.
+[Aug  9 11:50:20] WARNING[8] loader.c: Module 'chan_oss' has been loaded but may be removed in a future release.
+[Aug  9 11:50:20] WARNING[8] loader.c: Module 'app_getcpeid' has been loaded but may be removed in a future release.
+[Aug  9 11:50:20] WARNING[8] loader.c: Module 'cdr_mysql' has been loaded but may be removed in a future release. Its replacement is 'cdr_adaptive_odbc'.
+[Aug  9 11:50:20] WARNING[8] loader.c: Module 'app_adsiprog' has been loaded but may be removed in a future release.
+[Aug  9 11:50:20] WARNING[8] loader.c: Module 'app_mysql' has been loaded but may be removed in a future release. Its replacement is 'func_odbc'.
+[Aug  9 11:50:20] WARNING[8] loader.c: Module 'app_ices' has been loaded but may be removed in a future release.
+[Aug  9 11:50:20] WARNING[8] loader.c: Module 'app_nbscat' has been loaded but may be removed in a future release.
+[Aug  9 11:50:20] ERROR[8] loader.c: cel_sqlite3_custom declined to load.
+[Aug  9 11:50:20] ERROR[8] loader.c: cdr_sqlite3_custom declined to load.
+[Aug  9 14:13:11] Asterisk 18.5.1 built by root @ c47582108194 on a x86_64 running Linux on 2021-08-09 11:19:37 UTC
+[Aug  9 14:13:11] ERROR[8] config.c: The file 'confids.d/modules.d.conf' was listed as a #include but it does not exist.
+[Aug  9 14:13:11] WARNING[8] loader.c: 'modules.conf' invalid or missing.
+[Aug  9 14:13:11] ERROR[8] asterisk.c: Module initialization failed.  ASTERISK EXITING!
+
+[Aug  9 14:13:12] Asterisk 18.5.1 built by root @ c47582108194 on a x86_64 running Linux on 2021-08-09 11:19:37 UTC
+[Aug  9 14:13:12] ERROR[1] config.c: The file 'confids.d/modules.d.conf' was listed as a #include but it does not exist.
+[Aug  9 14:13:12] WARNING[1] loader.c: 'modules.conf' invalid or missing.
+[Aug  9 14:13:12] ERROR[1] asterisk.c: Module initialization failed.  ASTERISK EXITING!
+
+[Aug  9 14:13:51] Asterisk 18.5.1 built by root @ c47582108194 on a x86_64 running Linux on 2021-08-09 11:19:37 UTC
+[Aug  9 14:13:51] ERROR[9] config.c: The file 'confids.d/modules.d.conf' was listed as a #include but it does not exist.
+[Aug  9 14:13:51] WARNING[9] loader.c: 'modules.conf' invalid or missing.
+[Aug  9 14:13:51] ERROR[9] asterisk.c: Module initialization failed.  ASTERISK EXITING!
+
+[Aug  9 14:13:52] Asterisk 18.5.1 built by root @ c47582108194 on a x86_64 running Linux on 2021-08-09 11:19:37 UTC
+[Aug  9 14:13:52] ERROR[1] config.c: The file 'confids.d/modules.d.conf' was listed as a #include but it does not exist.
+[Aug  9 14:13:52] WARNING[1] loader.c: 'modules.conf' invalid or missing.
+[Aug  9 14:13:52] ERROR[1] asterisk.c: Module initialization failed.  ASTERISK EXITING!
+
+[Aug  9 14:14:37] Asterisk 18.5.1 built by root @ c47582108194 on a x86_64 running Linux on 2021-08-09 11:19:37 UTC
+[Aug  9 14:14:37] ERROR[9] config.c: The file 'confids.d/modules.d.conf' was listed as a #include but it does not exist.
+[Aug  9 14:14:37] WARNING[9] loader.c: 'modules.conf' invalid or missing.
+[Aug  9 14:14:37] ERROR[9] asterisk.c: Module initialization failed.  ASTERISK EXITING!
+
+[Aug  9 14:14:38] Asterisk 18.5.1 built by root @ c47582108194 on a x86_64 running Linux on 2021-08-09 11:19:37 UTC
+[Aug  9 14:14:38] ERROR[1] config.c: The file 'confids.d/modules.d.conf' was listed as a #include but it does not exist.
+[Aug  9 14:14:38] WARNING[1] loader.c: 'modules.conf' invalid or missing.
+[Aug  9 14:14:38] ERROR[1] asterisk.c: Module initialization failed.  ASTERISK EXITING!
+
+[Aug  9 14:15:56] Asterisk 18.5.1 built by root @ c47582108194 on a x86_64 running Linux on 2021-08-09 11:19:37 UTC
+[Aug  9 14:15:56] ERROR[8] config.c: The file 'confids.d/modules.d.conf' was listed as a #include but it does not exist.
+[Aug  9 14:15:56] WARNING[8] loader.c: 'modules.conf' invalid or missing.
+[Aug  9 14:15:56] ERROR[8] asterisk.c: Module initialization failed.  ASTERISK EXITING!
+
+[Aug  9 14:15:58] Asterisk 18.5.1 built by root @ c47582108194 on a x86_64 running Linux on 2021-08-09 11:19:37 UTC
+[Aug  9 14:15:58] ERROR[1] config.c: The file 'confids.d/modules.d.conf' was listed as a #include but it does not exist.
+[Aug  9 14:15:58] WARNING[1] loader.c: 'modules.conf' invalid or missing.
+[Aug  9 14:15:58] ERROR[1] asterisk.c: Module initialization failed.  ASTERISK EXITING!
+
+[Aug  9 14:16:46] Asterisk 18.5.1 built by root @ c47582108194 on a x86_64 running Linux on 2021-08-09 11:19:37 UTC
+[Aug  9 14:16:46] NOTICE[8] loader.c: 29 modules will be loaded.
+[Aug  9 14:16:46] NOTICE[8] cdr.c: CDR simple logging enabled.
+[Aug  9 14:20:06] Asterisk 18.5.1 built by root @ c47582108194 on a x86_64 running Linux on 2021-08-09 11:19:37 UTC
+[Aug  9 14:20:06] NOTICE[8] loader.c: 29 modules will be loaded.
+[Aug  9 14:20:06] NOTICE[8] cdr.c: CDR simple logging enabled.
+[Aug  9 14:20:06] ERROR[8] loader.c: Error loading module 'app_stasis.so', missing dependency: res_stasis
+[Aug  9 14:48:33] Asterisk 18.5.1 built by root @ c47582108194 on a x86_64 running Linux on 2021-08-09 11:19:37 UTC
+[Aug  9 14:48:33] NOTICE[9] loader.c: 188 modules will be loaded.
+[Aug  9 14:48:33] NOTICE[9] cdr.c: CDR simple logging enabled.
+[Aug  9 14:48:33] ERROR[9] sorcery.c: Wizard 'config' could not be applied to object type 'opus' as it was not found
+[Aug  9 14:48:33] ERROR[9] codec_opus_config.c: Opus: failed to register sorcery object type 'opus'
+[Aug  9 14:48:33] WARNING[9] res_phoneprov.c: Unable to find a valid server address or name.
+[Aug  9 14:48:33] ERROR[9] ari/config.c: No configured users for ARI
+[Aug  9 14:48:33] WARNING[9] loader.c: Some non-required modules failed to load.
+[Aug  9 14:48:33] WARNING[9] loader.c: Module 'res_adsi' has been loaded but may be removed in a future release.
+[Aug  9 14:48:33] WARNING[9] loader.c: Module 'cdr_mysql' has been loaded but may be removed in a future release. Its replacement is 'cdr_adaptive_odbc'.
+[Aug  9 14:48:33] ERROR[9] loader.c: Error loading module 'res_pjsip_stir_shaken.so', missing dependency: res_stir_shaken
+[Aug  9 14:48:33] ERROR[9] loader.c: Error loading module 'res_config_odbc.so', missing dependency: res_odbc
+[Aug  9 14:48:33] ERROR[9] loader.c: Failed to resolve dependencies for res_config_curl
+[Aug  9 14:48:33] ERROR[9] loader.c: res_config_curl declined to load.
+[Aug  9 14:48:33] ERROR[9] loader.c: codec_opus declined to load.
+[Aug  9 14:48:33] ERROR[9] loader.c: Failed to resolve dependencies for res_pjproject
+[Aug  9 14:48:33] ERROR[9] loader.c: res_pjproject declined to load.
+[Aug  9 14:48:33] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip
+[Aug  9 14:48:33] ERROR[9] loader.c: res_pjsip declined to load.
+[Aug  9 14:48:33] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_authenticator_digest
+[Aug  9 14:48:33] ERROR[9] loader.c: res_pjsip_authenticator_digest declined to load.
+[Aug  9 14:48:33] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_endpoint_identifier_user
+[Aug  9 14:48:33] ERROR[9] loader.c: res_pjsip_endpoint_identifier_user declined to load.
+[Aug  9 14:48:33] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_endpoint_identifier_ip
+[Aug  9 14:48:33] ERROR[9] loader.c: res_pjsip_endpoint_identifier_ip declined to load.
+[Aug  9 14:48:33] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_registrar
+[Aug  9 14:48:33] ERROR[9] loader.c: res_pjsip_registrar declined to load.
+[Aug  9 14:48:33] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_pubsub
+[Aug  9 14:48:33] ERROR[9] loader.c: res_pjsip_pubsub declined to load.
+[Aug  9 14:48:33] ERROR[9] loader.c: Failed to resolve dependencies for res_rtp_asterisk
+[Aug  9 14:48:33] ERROR[9] loader.c: res_rtp_asterisk declined to load.
+[Aug  9 14:48:33] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_pidf_eyebeam_body_supplement
+[Aug  9 14:48:33] ERROR[9] loader.c: res_pjsip_pidf_eyebeam_body_supplement declined to load.
+[Aug  9 14:48:33] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_xpidf_body_generator
+[Aug  9 14:48:33] ERROR[9] loader.c: res_pjsip_xpidf_body_generator declined to load.
+[Aug  9 14:48:33] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_outbound_authenticator_digest
+[Aug  9 14:48:33] ERROR[9] loader.c: res_pjsip_outbound_authenticator_digest declined to load.
+[Aug  9 14:48:33] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_pidf_digium_body_supplement
+[Aug  9 14:48:33] ERROR[9] loader.c: res_pjsip_pidf_digium_body_supplement declined to load.
+[Aug  9 14:48:33] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_outbound_publish
+[Aug  9 14:48:33] ERROR[9] loader.c: res_pjsip_outbound_publish declined to load.
+[Aug  9 14:48:33] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_mwi_body_generator
+[Aug  9 14:48:33] ERROR[9] loader.c: res_pjsip_mwi_body_generator declined to load.
+[Aug  9 14:48:33] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_dialog_info_body_generator
+[Aug  9 14:48:33] ERROR[9] loader.c: res_pjsip_dialog_info_body_generator declined to load.
+[Aug  9 14:48:33] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_pidf_body_generator
+[Aug  9 14:48:33] ERROR[9] loader.c: res_pjsip_pidf_body_generator declined to load.
+[Aug  9 14:48:33] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_mwi
+[Aug  9 14:48:33] ERROR[9] loader.c: res_pjsip_mwi declined to load.
+[Aug  9 14:48:33] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_exten_state
+[Aug  9 14:48:33] ERROR[9] loader.c: res_pjsip_exten_state declined to load.
+[Aug  9 14:48:33] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_publish_asterisk
+[Aug  9 14:48:33] ERROR[9] loader.c: res_pjsip_publish_asterisk declined to load.
+[Aug  9 14:48:33] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_t38
+[Aug  9 14:48:33] ERROR[9] loader.c: res_pjsip_t38 declined to load.
+[Aug  9 14:48:33] ERROR[9] loader.c: Failed to resolve dependencies for chan_pjsip
+[Aug  9 14:48:33] ERROR[9] loader.c: chan_pjsip declined to load.
+[Aug  9 14:48:33] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_sdp_rtp
+[Aug  9 14:48:33] ERROR[9] loader.c: res_pjsip_sdp_rtp declined to load.
+[Aug  9 14:48:33] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_acl
+[Aug  9 14:48:33] ERROR[9] loader.c: res_pjsip_acl declined to load.
+[Aug  9 14:48:33] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_diversion
+[Aug  9 14:48:33] ERROR[9] loader.c: res_pjsip_diversion declined to load.
+[Aug  9 14:48:33] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_caller_id
+[Aug  9 14:48:33] ERROR[9] loader.c: res_pjsip_caller_id declined to load.
+[Aug  9 14:48:33] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_empty_info
+[Aug  9 14:48:33] ERROR[9] loader.c: res_pjsip_empty_info declined to load.
+[Aug  9 14:48:33] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_nat
+[Aug  9 14:48:33] ERROR[9] loader.c: res_pjsip_nat declined to load.
+[Aug  9 14:48:33] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_history
+[Aug  9 14:48:33] ERROR[9] loader.c: res_pjsip_history declined to load.
+[Aug  9 14:48:33] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_transport_websocket
+[Aug  9 14:48:33] ERROR[9] loader.c: res_pjsip_transport_websocket declined to load.
+[Aug  9 14:48:33] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_rfc3326
+[Aug  9 14:48:33] ERROR[9] loader.c: res_pjsip_rfc3326 declined to load.
+[Aug  9 14:48:33] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_one_touch_record_info
+[Aug  9 14:48:33] ERROR[9] loader.c: res_pjsip_one_touch_record_info declined to load.
+[Aug  9 14:48:33] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_sips_contact
+[Aug  9 14:48:33] ERROR[9] loader.c: res_pjsip_sips_contact declined to load.
+[Aug  9 14:48:33] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_notify
+[Aug  9 14:48:33] ERROR[9] loader.c: res_pjsip_notify declined to load.
+[Aug  9 14:48:33] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_logger
+[Aug  9 14:48:33] ERROR[9] loader.c: res_pjsip_logger declined to load.
+[Aug  9 14:48:33] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_session
+[Aug  9 14:48:33] ERROR[9] loader.c: res_pjsip_session declined to load.
+[Aug  9 14:48:33] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_path
+[Aug  9 14:48:33] ERROR[9] loader.c: res_pjsip_path declined to load.
+[Aug  9 14:48:33] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_dlg_options
+[Aug  9 14:48:33] ERROR[9] loader.c: res_pjsip_dlg_options declined to load.
+[Aug  9 14:48:33] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_phoneprov_provider
+[Aug  9 14:48:33] ERROR[9] loader.c: res_pjsip_phoneprov_provider declined to load.
+[Aug  9 14:48:33] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_outbound_registration
+[Aug  9 14:48:33] ERROR[9] loader.c: res_pjsip_outbound_registration declined to load.
+[Aug  9 14:48:33] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_dtmf_info
+[Aug  9 14:48:33] ERROR[9] loader.c: res_pjsip_dtmf_info declined to load.
+[Aug  9 14:48:33] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_messaging
+[Aug  9 14:48:33] ERROR[9] loader.c: res_pjsip_messaging declined to load.
+[Aug  9 14:48:33] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_refer
+[Aug  9 14:48:33] ERROR[9] loader.c: res_pjsip_refer declined to load.
+[Aug  9 14:48:33] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_header_funcs
+[Aug  9 14:48:33] ERROR[9] loader.c: res_pjsip_header_funcs declined to load.
+[Aug  9 14:48:33] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_send_to_voicemail
+[Aug  9 14:48:33] ERROR[9] loader.c: res_pjsip_send_to_voicemail declined to load.
+[Aug  9 14:48:33] ERROR[9] loader.c: Failed to resolve dependencies for func_pjsip_aor
+[Aug  9 14:48:33] ERROR[9] loader.c: func_pjsip_aor declined to load.
+[Aug  9 14:48:33] ERROR[9] loader.c: Failed to resolve dependencies for func_pjsip_endpoint
+[Aug  9 14:48:33] ERROR[9] loader.c: func_pjsip_endpoint declined to load.
+[Aug  9 14:48:33] ERROR[9] loader.c: Failed to resolve dependencies for res_ari_events
+[Aug  9 14:48:33] ERROR[9] loader.c: res_ari_events declined to load.
+[Aug  9 14:48:33] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_endpoint_identifier_anonymous
+[Aug  9 14:48:33] ERROR[9] loader.c: res_pjsip_endpoint_identifier_anonymous declined to load.
+[Aug  9 14:48:33] ERROR[9] loader.c: Failed to resolve dependencies for func_pjsip_contact
+[Aug  9 14:48:33] ERROR[9] loader.c: func_pjsip_contact declined to load.
+[Aug  9 14:52:54] Asterisk 18.5.1 built by root @ c47582108194 on a x86_64 running Linux on 2021-08-09 11:19:37 UTC
+[Aug  9 14:52:54] NOTICE[9] loader.c: 187 modules will be loaded.
+[Aug  9 14:52:54] NOTICE[9] cdr.c: CDR simple logging enabled.
+[Aug  9 14:52:54] ERROR[9] sorcery.c: Wizard 'config' could not be applied to object type 'opus' as it was not found
+[Aug  9 14:52:54] ERROR[9] codec_opus_config.c: Opus: failed to register sorcery object type 'opus'
+[Aug  9 14:52:54] WARNING[9] res_phoneprov.c: Unable to find a valid server address or name.
+[Aug  9 14:52:54] ERROR[9] ari/config.c: No configured users for ARI
+[Aug  9 14:52:54] WARNING[9] loader.c: Some non-required modules failed to load.
+[Aug  9 14:52:54] WARNING[9] loader.c: Module 'res_adsi' has been loaded but may be removed in a future release.
+[Aug  9 14:52:54] WARNING[9] loader.c: Module 'cdr_mysql' has been loaded but may be removed in a future release. Its replacement is 'cdr_adaptive_odbc'.
+[Aug  9 14:52:54] ERROR[9] loader.c: Error loading module 'res_config_odbc.so', missing dependency: res_odbc
+[Aug  9 14:52:54] ERROR[9] loader.c: Failed to resolve dependencies for res_config_curl
+[Aug  9 14:52:54] ERROR[9] loader.c: res_config_curl declined to load.
+[Aug  9 14:52:54] ERROR[9] loader.c: codec_opus declined to load.
+[Aug  9 14:52:54] ERROR[9] loader.c: Failed to resolve dependencies for res_pjproject
+[Aug  9 14:52:54] ERROR[9] loader.c: res_pjproject declined to load.
+[Aug  9 14:52:54] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip
+[Aug  9 14:52:54] ERROR[9] loader.c: res_pjsip declined to load.
+[Aug  9 14:52:54] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_authenticator_digest
+[Aug  9 14:52:54] ERROR[9] loader.c: res_pjsip_authenticator_digest declined to load.
+[Aug  9 14:52:54] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_endpoint_identifier_user
+[Aug  9 14:52:54] ERROR[9] loader.c: res_pjsip_endpoint_identifier_user declined to load.
+[Aug  9 14:52:54] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_endpoint_identifier_ip
+[Aug  9 14:52:54] ERROR[9] loader.c: res_pjsip_endpoint_identifier_ip declined to load.
+[Aug  9 14:52:54] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_registrar
+[Aug  9 14:52:54] ERROR[9] loader.c: res_pjsip_registrar declined to load.
+[Aug  9 14:52:54] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_pubsub
+[Aug  9 14:52:54] ERROR[9] loader.c: res_pjsip_pubsub declined to load.
+[Aug  9 14:52:54] ERROR[9] loader.c: Failed to resolve dependencies for res_rtp_asterisk
+[Aug  9 14:52:54] ERROR[9] loader.c: res_rtp_asterisk declined to load.
+[Aug  9 14:52:54] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_pidf_eyebeam_body_supplement
+[Aug  9 14:52:54] ERROR[9] loader.c: res_pjsip_pidf_eyebeam_body_supplement declined to load.
+[Aug  9 14:52:54] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_xpidf_body_generator
+[Aug  9 14:52:54] ERROR[9] loader.c: res_pjsip_xpidf_body_generator declined to load.
+[Aug  9 14:52:54] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_outbound_authenticator_digest
+[Aug  9 14:52:54] ERROR[9] loader.c: res_pjsip_outbound_authenticator_digest declined to load.
+[Aug  9 14:52:54] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_pidf_digium_body_supplement
+[Aug  9 14:52:54] ERROR[9] loader.c: res_pjsip_pidf_digium_body_supplement declined to load.
+[Aug  9 14:52:54] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_outbound_publish
+[Aug  9 14:52:54] ERROR[9] loader.c: res_pjsip_outbound_publish declined to load.
+[Aug  9 14:52:54] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_mwi_body_generator
+[Aug  9 14:52:54] ERROR[9] loader.c: res_pjsip_mwi_body_generator declined to load.
+[Aug  9 14:52:54] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_dialog_info_body_generator
+[Aug  9 14:52:54] ERROR[9] loader.c: res_pjsip_dialog_info_body_generator declined to load.
+[Aug  9 14:52:54] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_pidf_body_generator
+[Aug  9 14:52:54] ERROR[9] loader.c: res_pjsip_pidf_body_generator declined to load.
+[Aug  9 14:52:54] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_mwi
+[Aug  9 14:52:54] ERROR[9] loader.c: res_pjsip_mwi declined to load.
+[Aug  9 14:52:54] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_exten_state
+[Aug  9 14:52:54] ERROR[9] loader.c: res_pjsip_exten_state declined to load.
+[Aug  9 14:52:54] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_publish_asterisk
+[Aug  9 14:52:54] ERROR[9] loader.c: res_pjsip_publish_asterisk declined to load.
+[Aug  9 14:52:54] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_t38
+[Aug  9 14:52:54] ERROR[9] loader.c: res_pjsip_t38 declined to load.
+[Aug  9 14:52:54] ERROR[9] loader.c: Failed to resolve dependencies for chan_pjsip
+[Aug  9 14:52:54] ERROR[9] loader.c: chan_pjsip declined to load.
+[Aug  9 14:52:54] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_sdp_rtp
+[Aug  9 14:52:54] ERROR[9] loader.c: res_pjsip_sdp_rtp declined to load.
+[Aug  9 14:52:54] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_acl
+[Aug  9 14:52:54] ERROR[9] loader.c: res_pjsip_acl declined to load.
+[Aug  9 14:52:54] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_diversion
+[Aug  9 14:52:54] ERROR[9] loader.c: res_pjsip_diversion declined to load.
+[Aug  9 14:52:54] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_caller_id
+[Aug  9 14:52:54] ERROR[9] loader.c: res_pjsip_caller_id declined to load.
+[Aug  9 14:52:54] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_empty_info
+[Aug  9 14:52:54] ERROR[9] loader.c: res_pjsip_empty_info declined to load.
+[Aug  9 14:52:54] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_nat
+[Aug  9 14:52:54] ERROR[9] loader.c: res_pjsip_nat declined to load.
+[Aug  9 14:52:54] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_history
+[Aug  9 14:52:54] ERROR[9] loader.c: res_pjsip_history declined to load.
+[Aug  9 14:52:54] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_transport_websocket
+[Aug  9 14:52:54] ERROR[9] loader.c: res_pjsip_transport_websocket declined to load.
+[Aug  9 14:52:54] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_rfc3326
+[Aug  9 14:52:54] ERROR[9] loader.c: res_pjsip_rfc3326 declined to load.
+[Aug  9 14:52:54] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_one_touch_record_info
+[Aug  9 14:52:54] ERROR[9] loader.c: res_pjsip_one_touch_record_info declined to load.
+[Aug  9 14:52:54] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_sips_contact
+[Aug  9 14:52:54] ERROR[9] loader.c: res_pjsip_sips_contact declined to load.
+[Aug  9 14:52:54] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_notify
+[Aug  9 14:52:54] ERROR[9] loader.c: res_pjsip_notify declined to load.
+[Aug  9 14:52:54] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_logger
+[Aug  9 14:52:54] ERROR[9] loader.c: res_pjsip_logger declined to load.
+[Aug  9 14:52:54] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_session
+[Aug  9 14:52:54] ERROR[9] loader.c: res_pjsip_session declined to load.
+[Aug  9 14:52:54] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_path
+[Aug  9 14:52:54] ERROR[9] loader.c: res_pjsip_path declined to load.
+[Aug  9 14:52:54] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_dlg_options
+[Aug  9 14:52:54] ERROR[9] loader.c: res_pjsip_dlg_options declined to load.
+[Aug  9 14:52:54] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_phoneprov_provider
+[Aug  9 14:52:54] ERROR[9] loader.c: res_pjsip_phoneprov_provider declined to load.
+[Aug  9 14:52:54] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_outbound_registration
+[Aug  9 14:52:54] ERROR[9] loader.c: res_pjsip_outbound_registration declined to load.
+[Aug  9 14:52:54] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_dtmf_info
+[Aug  9 14:52:54] ERROR[9] loader.c: res_pjsip_dtmf_info declined to load.
+[Aug  9 14:52:54] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_messaging
+[Aug  9 14:52:54] ERROR[9] loader.c: res_pjsip_messaging declined to load.
+[Aug  9 14:52:54] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_refer
+[Aug  9 14:52:54] ERROR[9] loader.c: res_pjsip_refer declined to load.
+[Aug  9 14:52:54] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_header_funcs
+[Aug  9 14:52:54] ERROR[9] loader.c: res_pjsip_header_funcs declined to load.
+[Aug  9 14:52:54] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_send_to_voicemail
+[Aug  9 14:52:54] ERROR[9] loader.c: res_pjsip_send_to_voicemail declined to load.
+[Aug  9 14:52:54] ERROR[9] loader.c: Failed to resolve dependencies for func_pjsip_aor
+[Aug  9 14:52:54] ERROR[9] loader.c: func_pjsip_aor declined to load.
+[Aug  9 14:52:54] ERROR[9] loader.c: Failed to resolve dependencies for func_pjsip_endpoint
+[Aug  9 14:52:54] ERROR[9] loader.c: func_pjsip_endpoint declined to load.
+[Aug  9 14:52:54] ERROR[9] loader.c: Failed to resolve dependencies for res_ari_events
+[Aug  9 14:52:54] ERROR[9] loader.c: res_ari_events declined to load.
+[Aug  9 14:52:54] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_endpoint_identifier_anonymous
+[Aug  9 14:52:54] ERROR[9] loader.c: res_pjsip_endpoint_identifier_anonymous declined to load.
+[Aug  9 14:52:54] ERROR[9] loader.c: Failed to resolve dependencies for func_pjsip_contact
+[Aug  9 14:52:54] ERROR[9] loader.c: func_pjsip_contact declined to load.
+[Aug  9 14:55:05] Asterisk 18.5.1 built by root @ c47582108194 on a x86_64 running Linux on 2021-08-09 11:19:37 UTC
+[Aug  9 14:55:05] NOTICE[9] loader.c: 190 modules will be loaded.
+[Aug  9 14:55:05] NOTICE[9] cdr.c: CDR simple logging enabled.
+[Aug  9 14:55:05] ERROR[9] sorcery.c: Wizard 'config' could not be applied to object type 'opus' as it was not found
+[Aug  9 14:55:05] ERROR[9] codec_opus_config.c: Opus: failed to register sorcery object type 'opus'
+[Aug  9 14:55:05] WARNING[9] res_phoneprov.c: Unable to find a valid server address or name.
+[Aug  9 14:55:05] ERROR[9] ari/config.c: No configured users for ARI
+[Aug  9 14:55:05] WARNING[9] loader.c: Some non-required modules failed to load.
+[Aug  9 14:55:05] WARNING[9] loader.c: Module 'res_adsi' has been loaded but may be removed in a future release.
+[Aug  9 14:55:05] WARNING[9] loader.c: Module 'cdr_mysql' has been loaded but may be removed in a future release. Its replacement is 'cdr_adaptive_odbc'.
+[Aug  9 14:55:05] ERROR[9] loader.c: Error loading module 'res_config_odbc.so', missing dependency: res_odbc
+[Aug  9 14:55:05] ERROR[9] loader.c: Failed to resolve dependencies for res_config_curl
+[Aug  9 14:55:05] ERROR[9] loader.c: res_config_curl declined to load.
+[Aug  9 14:55:05] ERROR[9] loader.c: codec_opus declined to load.
+[Aug  9 14:55:05] ERROR[9] loader.c: Failed to resolve dependencies for res_pjproject
+[Aug  9 14:55:05] ERROR[9] loader.c: res_pjproject declined to load.
+[Aug  9 14:55:05] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip
+[Aug  9 14:55:05] ERROR[9] loader.c: res_pjsip declined to load.
+[Aug  9 14:55:05] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_authenticator_digest
+[Aug  9 14:55:05] ERROR[9] loader.c: res_pjsip_authenticator_digest declined to load.
+[Aug  9 14:55:05] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_endpoint_identifier_user
+[Aug  9 14:55:05] ERROR[9] loader.c: res_pjsip_endpoint_identifier_user declined to load.
+[Aug  9 14:55:05] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_endpoint_identifier_ip
+[Aug  9 14:55:05] ERROR[9] loader.c: res_pjsip_endpoint_identifier_ip declined to load.
+[Aug  9 14:55:05] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_registrar
+[Aug  9 14:55:05] ERROR[9] loader.c: res_pjsip_registrar declined to load.
+[Aug  9 14:55:05] ERROR[9] loader.c: Failed to resolve dependencies for res_stir_shaken
+[Aug  9 14:55:05] ERROR[9] loader.c: res_stir_shaken declined to load.
+[Aug  9 14:55:05] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_pubsub
+[Aug  9 14:55:05] ERROR[9] loader.c: res_pjsip_pubsub declined to load.
+[Aug  9 14:55:05] ERROR[9] loader.c: Failed to resolve dependencies for res_rtp_asterisk
+[Aug  9 14:55:05] ERROR[9] loader.c: res_rtp_asterisk declined to load.
+[Aug  9 14:55:05] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_pidf_eyebeam_body_supplement
+[Aug  9 14:55:05] ERROR[9] loader.c: res_pjsip_pidf_eyebeam_body_supplement declined to load.
+[Aug  9 14:55:05] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_xpidf_body_generator
+[Aug  9 14:55:05] ERROR[9] loader.c: res_pjsip_xpidf_body_generator declined to load.
+[Aug  9 14:55:05] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_outbound_authenticator_digest
+[Aug  9 14:55:05] ERROR[9] loader.c: res_pjsip_outbound_authenticator_digest declined to load.
+[Aug  9 14:55:05] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_pidf_digium_body_supplement
+[Aug  9 14:55:05] ERROR[9] loader.c: res_pjsip_pidf_digium_body_supplement declined to load.
+[Aug  9 14:55:05] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_outbound_publish
+[Aug  9 14:55:05] ERROR[9] loader.c: res_pjsip_outbound_publish declined to load.
+[Aug  9 14:55:05] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_mwi_body_generator
+[Aug  9 14:55:05] ERROR[9] loader.c: res_pjsip_mwi_body_generator declined to load.
+[Aug  9 14:55:05] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_dialog_info_body_generator
+[Aug  9 14:55:05] ERROR[9] loader.c: res_pjsip_dialog_info_body_generator declined to load.
+[Aug  9 14:55:05] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_pidf_body_generator
+[Aug  9 14:55:05] ERROR[9] loader.c: res_pjsip_pidf_body_generator declined to load.
+[Aug  9 14:55:05] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_mwi
+[Aug  9 14:55:05] ERROR[9] loader.c: res_pjsip_mwi declined to load.
+[Aug  9 14:55:05] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_exten_state
+[Aug  9 14:55:05] ERROR[9] loader.c: res_pjsip_exten_state declined to load.
+[Aug  9 14:55:05] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_publish_asterisk
+[Aug  9 14:55:05] ERROR[9] loader.c: res_pjsip_publish_asterisk declined to load.
+[Aug  9 14:55:05] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_t38
+[Aug  9 14:55:05] ERROR[9] loader.c: res_pjsip_t38 declined to load.
+[Aug  9 14:55:05] ERROR[9] loader.c: Failed to resolve dependencies for chan_pjsip
+[Aug  9 14:55:05] ERROR[9] loader.c: chan_pjsip declined to load.
+[Aug  9 14:55:05] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_sdp_rtp
+[Aug  9 14:55:05] ERROR[9] loader.c: res_pjsip_sdp_rtp declined to load.
+[Aug  9 14:55:05] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_acl
+[Aug  9 14:55:05] ERROR[9] loader.c: res_pjsip_acl declined to load.
+[Aug  9 14:55:05] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_diversion
+[Aug  9 14:55:05] ERROR[9] loader.c: res_pjsip_diversion declined to load.
+[Aug  9 14:55:05] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_caller_id
+[Aug  9 14:55:05] ERROR[9] loader.c: res_pjsip_caller_id declined to load.
+[Aug  9 14:55:05] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_empty_info
+[Aug  9 14:55:05] ERROR[9] loader.c: res_pjsip_empty_info declined to load.
+[Aug  9 14:55:05] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_nat
+[Aug  9 14:55:05] ERROR[9] loader.c: res_pjsip_nat declined to load.
+[Aug  9 14:55:05] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_history
+[Aug  9 14:55:05] ERROR[9] loader.c: res_pjsip_history declined to load.
+[Aug  9 14:55:05] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_transport_websocket
+[Aug  9 14:55:05] ERROR[9] loader.c: res_pjsip_transport_websocket declined to load.
+[Aug  9 14:55:05] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_rfc3326
+[Aug  9 14:55:05] ERROR[9] loader.c: res_pjsip_rfc3326 declined to load.
+[Aug  9 14:55:05] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_one_touch_record_info
+[Aug  9 14:55:05] ERROR[9] loader.c: res_pjsip_one_touch_record_info declined to load.
+[Aug  9 14:55:05] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_sips_contact
+[Aug  9 14:55:05] ERROR[9] loader.c: res_pjsip_sips_contact declined to load.
+[Aug  9 14:55:05] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_notify
+[Aug  9 14:55:05] ERROR[9] loader.c: res_pjsip_notify declined to load.
+[Aug  9 14:55:05] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_logger
+[Aug  9 14:55:05] ERROR[9] loader.c: res_pjsip_logger declined to load.
+[Aug  9 14:55:05] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_session
+[Aug  9 14:55:05] ERROR[9] loader.c: res_pjsip_session declined to load.
+[Aug  9 14:55:05] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_path
+[Aug  9 14:55:05] ERROR[9] loader.c: res_pjsip_path declined to load.
+[Aug  9 14:55:05] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_dlg_options
+[Aug  9 14:55:05] ERROR[9] loader.c: res_pjsip_dlg_options declined to load.
+[Aug  9 14:55:05] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_phoneprov_provider
+[Aug  9 14:55:05] ERROR[9] loader.c: res_pjsip_phoneprov_provider declined to load.
+[Aug  9 14:55:05] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_outbound_registration
+[Aug  9 14:55:05] ERROR[9] loader.c: res_pjsip_outbound_registration declined to load.
+[Aug  9 14:55:05] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_dtmf_info
+[Aug  9 14:55:05] ERROR[9] loader.c: res_pjsip_dtmf_info declined to load.
+[Aug  9 14:55:05] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_messaging
+[Aug  9 14:55:05] ERROR[9] loader.c: res_pjsip_messaging declined to load.
+[Aug  9 14:55:05] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_refer
+[Aug  9 14:55:05] ERROR[9] loader.c: res_pjsip_refer declined to load.
+[Aug  9 14:55:05] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_header_funcs
+[Aug  9 14:55:05] ERROR[9] loader.c: res_pjsip_header_funcs declined to load.
+[Aug  9 14:55:05] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_send_to_voicemail
+[Aug  9 14:55:05] ERROR[9] loader.c: res_pjsip_send_to_voicemail declined to load.
+[Aug  9 14:55:05] ERROR[9] loader.c: Failed to resolve dependencies for func_pjsip_aor
+[Aug  9 14:55:05] ERROR[9] loader.c: func_pjsip_aor declined to load.
+[Aug  9 14:55:05] ERROR[9] loader.c: Failed to resolve dependencies for func_pjsip_endpoint
+[Aug  9 14:55:05] ERROR[9] loader.c: func_pjsip_endpoint declined to load.
+[Aug  9 14:55:05] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_stir_shaken
+[Aug  9 14:55:05] ERROR[9] loader.c: res_pjsip_stir_shaken declined to load.
+[Aug  9 14:55:05] ERROR[9] loader.c: Failed to resolve dependencies for res_ari_events
+[Aug  9 14:55:05] ERROR[9] loader.c: res_ari_events declined to load.
+[Aug  9 14:55:05] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_endpoint_identifier_anonymous
+[Aug  9 14:55:05] ERROR[9] loader.c: res_pjsip_endpoint_identifier_anonymous declined to load.
+[Aug  9 14:55:05] ERROR[9] loader.c: Failed to resolve dependencies for func_pjsip_contact
+[Aug  9 14:55:05] ERROR[9] loader.c: func_pjsip_contact declined to load.
+[Aug  9 14:58:36] Asterisk 18.5.1 built by root @ c47582108194 on a x86_64 running Linux on 2021-08-09 11:19:37 UTC
+[Aug  9 14:58:36] NOTICE[9] loader.c: 192 modules will be loaded.
+[Aug  9 14:58:36] NOTICE[9] cdr.c: CDR simple logging enabled.
+[Aug  9 14:58:37] WARNING[9] res_phoneprov.c: Unable to find a valid server address or name.
+[Aug  9 14:58:37] ERROR[9] ari/config.c: No configured users for ARI
+[Aug  9 14:58:37] WARNING[9] loader.c: Some non-required modules failed to load.
+[Aug  9 14:58:37] WARNING[9] loader.c: Module 'res_adsi' has been loaded but may be removed in a future release.
+[Aug  9 14:58:37] WARNING[9] loader.c: Module 'cdr_mysql' has been loaded but may be removed in a future release. Its replacement is 'cdr_adaptive_odbc'.
+[Aug  9 14:58:37] ERROR[9] loader.c: Error loading module 'res_config_odbc.so', missing dependency: res_odbc
+[Aug  9 14:58:37] ERROR[9] loader.c: Failed to resolve dependencies for res_config_curl
+[Aug  9 14:58:37] ERROR[9] loader.c: res_config_curl declined to load.
+[Aug  9 14:58:37] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip
+[Aug  9 14:58:37] ERROR[9] loader.c: res_pjsip declined to load.
+[Aug  9 14:58:37] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_authenticator_digest
+[Aug  9 14:58:37] ERROR[9] loader.c: res_pjsip_authenticator_digest declined to load.
+[Aug  9 14:58:37] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_endpoint_identifier_user
+[Aug  9 14:58:37] ERROR[9] loader.c: res_pjsip_endpoint_identifier_user declined to load.
+[Aug  9 14:58:37] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_endpoint_identifier_ip
+[Aug  9 14:58:37] ERROR[9] loader.c: res_pjsip_endpoint_identifier_ip declined to load.
+[Aug  9 14:58:37] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_registrar
+[Aug  9 14:58:37] ERROR[9] loader.c: res_pjsip_registrar declined to load.
+[Aug  9 14:58:37] ERROR[9] loader.c: Failed to resolve dependencies for res_stir_shaken
+[Aug  9 14:58:37] ERROR[9] loader.c: res_stir_shaken declined to load.
+[Aug  9 14:58:37] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_pubsub
+[Aug  9 14:58:37] ERROR[9] loader.c: res_pjsip_pubsub declined to load.
+[Aug  9 14:58:37] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_pidf_eyebeam_body_supplement
+[Aug  9 14:58:37] ERROR[9] loader.c: res_pjsip_pidf_eyebeam_body_supplement declined to load.
+[Aug  9 14:58:37] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_xpidf_body_generator
+[Aug  9 14:58:37] ERROR[9] loader.c: res_pjsip_xpidf_body_generator declined to load.
+[Aug  9 14:58:37] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_outbound_authenticator_digest
+[Aug  9 14:58:37] ERROR[9] loader.c: res_pjsip_outbound_authenticator_digest declined to load.
+[Aug  9 14:58:37] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_pidf_digium_body_supplement
+[Aug  9 14:58:37] ERROR[9] loader.c: res_pjsip_pidf_digium_body_supplement declined to load.
+[Aug  9 14:58:37] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_outbound_publish
+[Aug  9 14:58:37] ERROR[9] loader.c: res_pjsip_outbound_publish declined to load.
+[Aug  9 14:58:37] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_mwi_body_generator
+[Aug  9 14:58:37] ERROR[9] loader.c: res_pjsip_mwi_body_generator declined to load.
+[Aug  9 14:58:37] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_dialog_info_body_generator
+[Aug  9 14:58:37] ERROR[9] loader.c: res_pjsip_dialog_info_body_generator declined to load.
+[Aug  9 14:58:37] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_pidf_body_generator
+[Aug  9 14:58:37] ERROR[9] loader.c: res_pjsip_pidf_body_generator declined to load.
+[Aug  9 14:58:37] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_mwi
+[Aug  9 14:58:37] ERROR[9] loader.c: res_pjsip_mwi declined to load.
+[Aug  9 14:58:37] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_exten_state
+[Aug  9 14:58:37] ERROR[9] loader.c: res_pjsip_exten_state declined to load.
+[Aug  9 14:58:37] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_publish_asterisk
+[Aug  9 14:58:37] ERROR[9] loader.c: res_pjsip_publish_asterisk declined to load.
+[Aug  9 14:58:37] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_t38
+[Aug  9 14:58:37] ERROR[9] loader.c: res_pjsip_t38 declined to load.
+[Aug  9 14:58:37] ERROR[9] loader.c: Failed to resolve dependencies for chan_pjsip
+[Aug  9 14:58:37] ERROR[9] loader.c: chan_pjsip declined to load.
+[Aug  9 14:58:37] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_sdp_rtp
+[Aug  9 14:58:37] ERROR[9] loader.c: res_pjsip_sdp_rtp declined to load.
+[Aug  9 14:58:37] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_acl
+[Aug  9 14:58:37] ERROR[9] loader.c: res_pjsip_acl declined to load.
+[Aug  9 14:58:37] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_diversion
+[Aug  9 14:58:37] ERROR[9] loader.c: res_pjsip_diversion declined to load.
+[Aug  9 14:58:37] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_caller_id
+[Aug  9 14:58:37] ERROR[9] loader.c: res_pjsip_caller_id declined to load.
+[Aug  9 14:58:37] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_empty_info
+[Aug  9 14:58:37] ERROR[9] loader.c: res_pjsip_empty_info declined to load.
+[Aug  9 14:58:37] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_nat
+[Aug  9 14:58:37] ERROR[9] loader.c: res_pjsip_nat declined to load.
+[Aug  9 14:58:37] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_history
+[Aug  9 14:58:37] ERROR[9] loader.c: res_pjsip_history declined to load.
+[Aug  9 14:58:37] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_transport_websocket
+[Aug  9 14:58:37] ERROR[9] loader.c: res_pjsip_transport_websocket declined to load.
+[Aug  9 14:58:37] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_rfc3326
+[Aug  9 14:58:37] ERROR[9] loader.c: res_pjsip_rfc3326 declined to load.
+[Aug  9 14:58:37] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_one_touch_record_info
+[Aug  9 14:58:37] ERROR[9] loader.c: res_pjsip_one_touch_record_info declined to load.
+[Aug  9 14:58:37] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_sips_contact
+[Aug  9 14:58:37] ERROR[9] loader.c: res_pjsip_sips_contact declined to load.
+[Aug  9 14:58:37] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_notify
+[Aug  9 14:58:37] ERROR[9] loader.c: res_pjsip_notify declined to load.
+[Aug  9 14:58:37] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_logger
+[Aug  9 14:58:37] ERROR[9] loader.c: res_pjsip_logger declined to load.
+[Aug  9 14:58:37] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_session
+[Aug  9 14:58:37] ERROR[9] loader.c: res_pjsip_session declined to load.
+[Aug  9 14:58:37] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_path
+[Aug  9 14:58:37] ERROR[9] loader.c: res_pjsip_path declined to load.
+[Aug  9 14:58:37] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_dlg_options
+[Aug  9 14:58:37] ERROR[9] loader.c: res_pjsip_dlg_options declined to load.
+[Aug  9 14:58:37] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_phoneprov_provider
+[Aug  9 14:58:37] ERROR[9] loader.c: res_pjsip_phoneprov_provider declined to load.
+[Aug  9 14:58:37] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_outbound_registration
+[Aug  9 14:58:37] ERROR[9] loader.c: res_pjsip_outbound_registration declined to load.
+[Aug  9 14:58:37] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_dtmf_info
+[Aug  9 14:58:37] ERROR[9] loader.c: res_pjsip_dtmf_info declined to load.
+[Aug  9 14:58:37] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_messaging
+[Aug  9 14:58:37] ERROR[9] loader.c: res_pjsip_messaging declined to load.
+[Aug  9 14:58:37] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_refer
+[Aug  9 14:58:37] ERROR[9] loader.c: res_pjsip_refer declined to load.
+[Aug  9 14:58:37] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_header_funcs
+[Aug  9 14:58:37] ERROR[9] loader.c: res_pjsip_header_funcs declined to load.
+[Aug  9 14:58:37] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_send_to_voicemail
+[Aug  9 14:58:37] ERROR[9] loader.c: res_pjsip_send_to_voicemail declined to load.
+[Aug  9 14:58:37] ERROR[9] loader.c: Failed to resolve dependencies for func_pjsip_aor
+[Aug  9 14:58:37] ERROR[9] loader.c: func_pjsip_aor declined to load.
+[Aug  9 14:58:37] ERROR[9] loader.c: Failed to resolve dependencies for func_pjsip_endpoint
+[Aug  9 14:58:37] ERROR[9] loader.c: func_pjsip_endpoint declined to load.
+[Aug  9 14:58:37] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_stir_shaken
+[Aug  9 14:58:37] ERROR[9] loader.c: res_pjsip_stir_shaken declined to load.
+[Aug  9 14:58:37] ERROR[9] loader.c: Failed to resolve dependencies for res_ari_events
+[Aug  9 14:58:37] ERROR[9] loader.c: res_ari_events declined to load.
+[Aug  9 14:58:37] ERROR[9] loader.c: Failed to resolve dependencies for res_pjsip_endpoint_identifier_anonymous
+[Aug  9 14:58:37] ERROR[9] loader.c: res_pjsip_endpoint_identifier_anonymous declined to load.
+[Aug  9 14:58:37] ERROR[9] loader.c: Failed to resolve dependencies for func_pjsip_contact
+[Aug  9 14:58:37] ERROR[9] loader.c: func_pjsip_contact declined to load.
+[Aug  9 15:12:05] Asterisk 18.5.1 built by root @ c47582108194 on a x86_64 running Linux on 2021-08-09 11:19:37 UTC
+[Aug  9 15:12:05] NOTICE[9] loader.c: 330 modules will be loaded.
+[Aug  9 15:12:05] WARNING[9] res_config_mysql.c: MySQL RealTime: No database user found, using 'asterisk' as default.
+[Aug  9 15:12:05] WARNING[9] res_config_mysql.c: MySQL RealTime: No database password found, using 'asterisk' as default.
+[Aug  9 15:12:05] WARNING[9] res_config_mysql.c: MySQL RealTime: No database host found, using localhost via socket.
+[Aug  9 15:12:05] WARNING[9] res_config_mysql.c: MySQL RealTime: No database name found, using 'asterisk' as default.
+[Aug  9 15:12:05] WARNING[9] res_config_mysql.c: MySQL RealTime: No database port found, using 3306 as default.
+[Aug  9 15:12:05] WARNING[9] res_config_mysql.c: MySQL RealTime: No database socket found (and unable to detect a suitable path).
+[Aug  9 15:12:05] NOTICE[9] cdr.c: CDR simple logging enabled.
+[Aug  9 15:12:06] WARNING[9] res_phoneprov.c: Unable to find a valid server address or name.
+[Aug  9 15:12:06] NOTICE[9] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[Aug  9 15:12:06] NOTICE[9] chan_skinny.c: Configuring skinny from skinny.conf
+[Aug  9 15:12:06] ERROR[9] ari/config.c: No configured users for ARI
+[Aug  9 15:12:06] NOTICE[9] confbridge/conf_config_parser.c: Adding default_menu menu to app_confbridge
+[Aug  9 15:12:06] NOTICE[9] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[Aug  9 15:12:06] WARNING[9] loader.c: Some non-required modules failed to load.
+[Aug  9 15:12:06] WARNING[9] loader.c: Module 'res_monitor' has been loaded but may be removed in a future release. Its replacement is 'app_mixmonitor'.
+[Aug  9 15:12:06] WARNING[9] loader.c: Module 'res_adsi' has been loaded but may be removed in a future release.
+[Aug  9 15:12:06] WARNING[9] loader.c: Module 'app_url' has been loaded but may be removed in a future release.
+[Aug  9 15:12:06] WARNING[9] loader.c: Module 'app_image' has been loaded but may be removed in a future release.
+[Aug  9 15:12:06] WARNING[9] loader.c: Module 'chan_oss' has been loaded but may be removed in a future release.
+[Aug  9 15:12:06] WARNING[9] loader.c: Module 'app_getcpeid' has been loaded but may be removed in a future release.
+[Aug  9 15:12:06] WARNING[9] loader.c: Module 'cdr_mysql' has been loaded but may be removed in a future release. Its replacement is 'cdr_adaptive_odbc'.
+[Aug  9 15:12:06] WARNING[9] loader.c: Module 'app_adsiprog' has been loaded but may be removed in a future release.
+[Aug  9 15:12:06] WARNING[9] loader.c: Module 'app_mysql' has been loaded but may be removed in a future release. Its replacement is 'func_odbc'.
+[Aug  9 15:12:06] WARNING[9] loader.c: Module 'app_ices' has been loaded but may be removed in a future release.
+[Aug  9 15:12:06] WARNING[9] loader.c: Module 'app_nbscat' has been loaded but may be removed in a future release.
+[Aug  9 15:12:06] ERROR[9] loader.c: cdr_sqlite3_custom declined to load.
+[Aug  9 15:21:37] Asterisk 18.5.1 built by root @ c47582108194 on a x86_64 running Linux on 2021-08-09 11:19:37 UTC
+[Aug  9 15:21:37] NOTICE[1] loader.c: 330 modules will be loaded.
+[Aug  9 15:21:37] ERROR[1] config.c: The file 'configs.d/res_config_mysql.conf' was listed as a #include but it does not exist.
+[Aug  9 15:33:11] Asterisk 18.5.1 built by root @ c47582108194 on a x86_64 running Linux on 2021-08-09 11:19:37 UTC
+[Aug  9 15:33:11] NOTICE[1] loader.c: 330 modules will be loaded.
+[Aug  9 15:33:11] ERROR[1] config.c: The file 'configs.d/res_config_mysql.conf' was listed as a #include but it does not exist.
+[Aug  9 15:34:31] Asterisk 18.5.1 built by root @ c47582108194 on a x86_64 running Linux on 2021-08-09 11:19:37 UTC
+[Aug  9 15:34:31] NOTICE[1] loader.c: 330 modules will be loaded.
+[Aug  9 15:34:32] NOTICE[1] cdr.c: CDR simple logging enabled.
+[Aug  9 15:34:32] WARNING[1] res_phoneprov.c: Unable to find a valid server address or name.
+[Aug  9 15:34:32] NOTICE[1] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[Aug  9 15:34:32] NOTICE[1] chan_skinny.c: Configuring skinny from skinny.conf
+[Aug  9 15:34:32] ERROR[1] ari/config.c: No configured users for ARI
+[Aug  9 15:34:32] NOTICE[1] confbridge/conf_config_parser.c: Adding default_menu menu to app_confbridge
+[Aug  9 15:34:32] NOTICE[1] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[Aug  9 15:34:32] WARNING[1] loader.c: Some non-required modules failed to load.
+[Aug  9 15:34:32] WARNING[1] loader.c: Module 'res_monitor' has been loaded but may be removed in a future release. Its replacement is 'app_mixmonitor'.
+[Aug  9 15:34:32] WARNING[1] loader.c: Module 'res_adsi' has been loaded but may be removed in a future release.
+[Aug  9 15:34:32] WARNING[1] loader.c: Module 'app_url' has been loaded but may be removed in a future release.
+[Aug  9 15:34:32] WARNING[1] loader.c: Module 'app_image' has been loaded but may be removed in a future release.
+[Aug  9 15:34:32] WARNING[1] loader.c: Module 'chan_oss' has been loaded but may be removed in a future release.
+[Aug  9 15:34:32] WARNING[1] loader.c: Module 'app_getcpeid' has been loaded but may be removed in a future release.
+[Aug  9 15:34:32] WARNING[1] loader.c: Module 'cdr_mysql' has been loaded but may be removed in a future release. Its replacement is 'cdr_adaptive_odbc'.
+[Aug  9 15:34:32] WARNING[1] loader.c: Module 'app_adsiprog' has been loaded but may be removed in a future release.
+[Aug  9 15:34:32] WARNING[1] loader.c: Module 'app_mysql' has been loaded but may be removed in a future release. Its replacement is 'func_odbc'.
+[Aug  9 15:34:32] WARNING[1] loader.c: Module 'app_ices' has been loaded but may be removed in a future release.
+[Aug  9 15:34:32] WARNING[1] loader.c: Module 'app_nbscat' has been loaded but may be removed in a future release.
+[Aug  9 15:34:32] ERROR[1] loader.c: cdr_sqlite3_custom declined to load.
+[Aug  9 15:37:06] Asterisk 18.5.1 built by root @ c47582108194 on a x86_64 running Linux on 2021-08-09 11:19:37 UTC
+[Aug  9 15:37:06] NOTICE[1] loader.c: 330 modules will be loaded.
+[Aug  9 15:37:06] NOTICE[1] cdr.c: CDR simple logging enabled.
+[Aug  9 15:37:07] WARNING[1] res_phoneprov.c: Unable to find a valid server address or name.
+[Aug  9 15:37:07] NOTICE[1] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[Aug  9 15:37:07] NOTICE[1] chan_skinny.c: Configuring skinny from skinny.conf
+[Aug  9 15:37:07] ERROR[1] ari/config.c: No configured users for ARI
+[Aug  9 15:37:07] NOTICE[1] confbridge/conf_config_parser.c: Adding default_menu menu to app_confbridge
+[Aug  9 15:37:07] NOTICE[1] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[Aug  9 15:37:07] WARNING[1] loader.c: Some non-required modules failed to load.
+[Aug  9 15:37:07] WARNING[1] loader.c: Module 'res_monitor' has been loaded but may be removed in a future release. Its replacement is 'app_mixmonitor'.
+[Aug  9 15:37:07] WARNING[1] loader.c: Module 'res_adsi' has been loaded but may be removed in a future release.
+[Aug  9 15:37:07] WARNING[1] loader.c: Module 'app_url' has been loaded but may be removed in a future release.
+[Aug  9 15:37:07] WARNING[1] loader.c: Module 'app_image' has been loaded but may be removed in a future release.
+[Aug  9 15:37:07] WARNING[1] loader.c: Module 'chan_oss' has been loaded but may be removed in a future release.
+[Aug  9 15:37:07] WARNING[1] loader.c: Module 'app_getcpeid' has been loaded but may be removed in a future release.
+[Aug  9 15:37:07] WARNING[1] loader.c: Module 'cdr_mysql' has been loaded but may be removed in a future release. Its replacement is 'cdr_adaptive_odbc'.
+[Aug  9 15:37:07] WARNING[1] loader.c: Module 'app_adsiprog' has been loaded but may be removed in a future release.
+[Aug  9 15:37:07] WARNING[1] loader.c: Module 'app_mysql' has been loaded but may be removed in a future release. Its replacement is 'func_odbc'.
+[Aug  9 15:37:07] WARNING[1] loader.c: Module 'app_ices' has been loaded but may be removed in a future release.
+[Aug  9 15:37:07] WARNING[1] loader.c: Module 'app_nbscat' has been loaded but may be removed in a future release.
+[Aug  9 15:37:07] ERROR[1] loader.c: cdr_sqlite3_custom declined to load.
+[Aug  9 15:44:07] Asterisk 18.5.1 built by root @ c47582108194 on a x86_64 running Linux on 2021-08-09 11:19:37 UTC
+[Aug  9 15:44:07] NOTICE[1] loader.c: 330 modules will be loaded.
+[Aug  9 15:44:07] NOTICE[1] cdr.c: CDR simple logging enabled.
+[Aug  9 15:44:07] WARNING[1] res_phoneprov.c: Unable to find a valid server address or name.
+[Aug  9 15:44:07] NOTICE[1] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[Aug  9 15:44:07] NOTICE[1] chan_skinny.c: Configuring skinny from skinny.conf
+[Aug  9 15:44:07] ERROR[1] ari/config.c: No configured users for ARI
+[Aug  9 15:44:07] NOTICE[1] confbridge/conf_config_parser.c: Adding default_menu menu to app_confbridge
+[Aug  9 15:44:07] NOTICE[1] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[Aug  9 15:44:07] WARNING[1] loader.c: Some non-required modules failed to load.
+[Aug  9 15:44:07] WARNING[1] loader.c: Module 'res_monitor' has been loaded but may be removed in a future release. Its replacement is 'app_mixmonitor'.
+[Aug  9 15:44:07] WARNING[1] loader.c: Module 'res_adsi' has been loaded but may be removed in a future release.
+[Aug  9 15:44:07] WARNING[1] loader.c: Module 'app_url' has been loaded but may be removed in a future release.
+[Aug  9 15:44:07] WARNING[1] loader.c: Module 'app_image' has been loaded but may be removed in a future release.
+[Aug  9 15:44:07] WARNING[1] loader.c: Module 'chan_oss' has been loaded but may be removed in a future release.
+[Aug  9 15:44:07] WARNING[1] loader.c: Module 'app_getcpeid' has been loaded but may be removed in a future release.
+[Aug  9 15:44:07] WARNING[1] loader.c: Module 'cdr_mysql' has been loaded but may be removed in a future release. Its replacement is 'cdr_adaptive_odbc'.
+[Aug  9 15:44:07] WARNING[1] loader.c: Module 'app_adsiprog' has been loaded but may be removed in a future release.
+[Aug  9 15:44:07] WARNING[1] loader.c: Module 'app_mysql' has been loaded but may be removed in a future release. Its replacement is 'func_odbc'.
+[Aug  9 15:44:07] WARNING[1] loader.c: Module 'app_ices' has been loaded but may be removed in a future release.
+[Aug  9 15:44:07] WARNING[1] loader.c: Module 'app_nbscat' has been loaded but may be removed in a future release.
+[Aug  9 15:44:07] ERROR[1] loader.c: cdr_sqlite3_custom declined to load.
+[Aug 10 13:05:25] Asterisk 18.5.1 built by root @ c47582108194 on a x86_64 running Linux on 2021-08-09 11:19:37 UTC
+[Aug 10 13:05:25] NOTICE[1] loader.c: 330 modules will be loaded.
+[Aug 10 13:05:25] WARNING[1] config.c: parse error: No category context for line 1 of /etc/asterisk/configs.d/res_config_mysql.conf
+[Aug 10 13:05:25] NOTICE[1] cdr.c: CDR simple logging enabled.
+[Aug 10 13:05:25] WARNING[1] res_phoneprov.c: Unable to find a valid server address or name.
+[Aug 10 13:05:25] NOTICE[1] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[Aug 10 13:05:25] NOTICE[1] chan_skinny.c: Configuring skinny from skinny.conf
+[Aug 10 13:05:25] ERROR[1] ari/config.c: No configured users for ARI
+[Aug 10 13:05:25] NOTICE[1] confbridge/conf_config_parser.c: Adding default_menu menu to app_confbridge
+[Aug 10 13:05:25] NOTICE[1] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[Aug 10 13:05:25] WARNING[1] config.c: No '=' (equal sign) in line 1 of /etc/asterisk/configs.d/res_config_mysql.conf
+[Aug 10 13:05:25] WARNING[1] pbx_config.c: ==!!== Unknown directive: dbhost at line 2 of /etc/asterisk/configs.d/res_config_mysql.conf -- IGNORING!!!
+[Aug 10 13:05:25] WARNING[1] pbx_config.c: ==!!== Unknown directive: dbname at line 3 of /etc/asterisk/configs.d/res_config_mysql.conf -- IGNORING!!!
+[Aug 10 13:05:25] WARNING[1] pbx_config.c: ==!!== Unknown directive: dbuser at line 4 of /etc/asterisk/configs.d/res_config_mysql.conf -- IGNORING!!!
+[Aug 10 13:05:25] WARNING[1] pbx_config.c: ==!!== Unknown directive: dbpass at line 5 of /etc/asterisk/configs.d/res_config_mysql.conf -- IGNORING!!!
+[Aug 10 13:05:25] WARNING[1] pbx_config.c: ==!!== Unknown directive: dbport at line 6 of /etc/asterisk/configs.d/res_config_mysql.conf -- IGNORING!!!
+[Aug 10 13:05:25] WARNING[1] pbx_config.c: ==!!== Unknown directive: dbsock at line 7 of /etc/asterisk/configs.d/res_config_mysql.conf -- IGNORING!!!
+[Aug 10 13:05:25] WARNING[1] pbx_config.c: ==!!== Unknown directive: dbcharset at line 8 of /etc/asterisk/configs.d/res_config_mysql.conf -- IGNORING!!!
+[Aug 10 13:05:25] WARNING[1] pbx_config.c: ==!!== Unknown directive: requirements at line 9 of /etc/asterisk/configs.d/res_config_mysql.conf -- IGNORING!!!
+[Aug 10 13:05:25] WARNING[1] loader.c: Some non-required modules failed to load.
+[Aug 10 13:05:25] WARNING[1] loader.c: Module 'res_monitor' has been loaded but may be removed in a future release. Its replacement is 'app_mixmonitor'.
+[Aug 10 13:05:25] WARNING[1] loader.c: Module 'res_adsi' has been loaded but may be removed in a future release.
+[Aug 10 13:05:25] WARNING[1] loader.c: Module 'app_url' has been loaded but may be removed in a future release.
+[Aug 10 13:05:25] WARNING[1] loader.c: Module 'app_image' has been loaded but may be removed in a future release.
+[Aug 10 13:05:25] WARNING[1] loader.c: Module 'chan_oss' has been loaded but may be removed in a future release.
+[Aug 10 13:05:25] WARNING[1] loader.c: Module 'app_getcpeid' has been loaded but may be removed in a future release.
+[Aug 10 13:05:25] WARNING[1] loader.c: Module 'cdr_mysql' has been loaded but may be removed in a future release. Its replacement is 'cdr_adaptive_odbc'.
+[Aug 10 13:05:25] WARNING[1] loader.c: Module 'app_adsiprog' has been loaded but may be removed in a future release.
+[Aug 10 13:05:25] WARNING[1] loader.c: Module 'app_mysql' has been loaded but may be removed in a future release. Its replacement is 'func_odbc'.
+[Aug 10 13:05:25] WARNING[1] loader.c: Module 'app_ices' has been loaded but may be removed in a future release.
+[Aug 10 13:05:25] WARNING[1] loader.c: Module 'app_nbscat' has been loaded but may be removed in a future release.
+[Aug 10 13:05:25] ERROR[1] loader.c: cdr_sqlite3_custom declined to load.
+[Aug 10 13:05:43] Asterisk 18.5.1 built by root @ c47582108194 on a x86_64 running Linux on 2021-08-09 11:19:37 UTC
+[Aug 10 13:05:44] NOTICE[1] loader.c: 330 modules will be loaded.
+[Aug 10 13:05:44] NOTICE[1] cdr.c: CDR simple logging enabled.
+[Aug 10 13:05:44] WARNING[1] res_phoneprov.c: Unable to find a valid server address or name.
+[Aug 10 13:05:44] NOTICE[1] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[Aug 10 13:05:44] NOTICE[1] chan_skinny.c: Configuring skinny from skinny.conf
+[Aug 10 13:05:44] ERROR[1] ari/config.c: No configured users for ARI
+[Aug 10 13:05:44] NOTICE[1] confbridge/conf_config_parser.c: Adding default_menu menu to app_confbridge
+[Aug 10 13:05:44] NOTICE[1] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[Aug 10 13:05:44] WARNING[1] loader.c: Some non-required modules failed to load.
+[Aug 10 13:05:44] WARNING[1] loader.c: Module 'res_monitor' has been loaded but may be removed in a future release. Its replacement is 'app_mixmonitor'.
+[Aug 10 13:05:44] WARNING[1] loader.c: Module 'res_adsi' has been loaded but may be removed in a future release.
+[Aug 10 13:05:44] WARNING[1] loader.c: Module 'app_url' has been loaded but may be removed in a future release.
+[Aug 10 13:05:44] WARNING[1] loader.c: Module 'app_image' has been loaded but may be removed in a future release.
+[Aug 10 13:05:44] WARNING[1] loader.c: Module 'chan_oss' has been loaded but may be removed in a future release.
+[Aug 10 13:05:44] WARNING[1] loader.c: Module 'app_getcpeid' has been loaded but may be removed in a future release.
+[Aug 10 13:05:44] WARNING[1] loader.c: Module 'cdr_mysql' has been loaded but may be removed in a future release. Its replacement is 'cdr_adaptive_odbc'.
+[Aug 10 13:05:44] WARNING[1] loader.c: Module 'app_adsiprog' has been loaded but may be removed in a future release.
+[Aug 10 13:05:44] WARNING[1] loader.c: Module 'app_mysql' has been loaded but may be removed in a future release. Its replacement is 'func_odbc'.
+[Aug 10 13:05:44] WARNING[1] loader.c: Module 'app_ices' has been loaded but may be removed in a future release.
+[Aug 10 13:05:44] WARNING[1] loader.c: Module 'app_nbscat' has been loaded but may be removed in a future release.
+[Aug 10 13:05:44] ERROR[1] loader.c: cdr_sqlite3_custom declined to load.
+[Aug 10 13:06:08] ERROR[96] res_config_mysql.c: MySQL RealTime: Failed to connect database server asterisk on localhost (err 2002). Check debug for more info.
+[Aug 10 13:07:27] Asterisk 18.5.1 built by root @ c47582108194 on a x86_64 running Linux on 2021-08-09 11:19:37 UTC
+[Aug 10 13:07:27] NOTICE[1] loader.c: 330 modules will be loaded.
+[Aug 10 13:07:28] NOTICE[1] cdr.c: CDR simple logging enabled.
+[Aug 10 13:07:28] WARNING[1] res_phoneprov.c: Unable to find a valid server address or name.
+[Aug 10 13:07:28] NOTICE[1] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[Aug 10 13:07:28] NOTICE[1] chan_skinny.c: Configuring skinny from skinny.conf
+[Aug 10 13:07:28] ERROR[1] ari/config.c: No configured users for ARI
+[Aug 10 13:07:28] NOTICE[1] confbridge/conf_config_parser.c: Adding default_menu menu to app_confbridge
+[Aug 10 13:07:28] NOTICE[1] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[Aug 10 13:07:28] WARNING[1] loader.c: Some non-required modules failed to load.
+[Aug 10 13:07:28] WARNING[1] loader.c: Module 'res_monitor' has been loaded but may be removed in a future release. Its replacement is 'app_mixmonitor'.
+[Aug 10 13:07:28] WARNING[1] loader.c: Module 'res_adsi' has been loaded but may be removed in a future release.
+[Aug 10 13:07:28] WARNING[1] loader.c: Module 'app_url' has been loaded but may be removed in a future release.
+[Aug 10 13:07:28] WARNING[1] loader.c: Module 'app_image' has been loaded but may be removed in a future release.
+[Aug 10 13:07:28] WARNING[1] loader.c: Module 'chan_oss' has been loaded but may be removed in a future release.
+[Aug 10 13:07:28] WARNING[1] loader.c: Module 'app_getcpeid' has been loaded but may be removed in a future release.
+[Aug 10 13:07:28] WARNING[1] loader.c: Module 'cdr_mysql' has been loaded but may be removed in a future release. Its replacement is 'cdr_adaptive_odbc'.
+[Aug 10 13:07:28] WARNING[1] loader.c: Module 'app_adsiprog' has been loaded but may be removed in a future release.
+[Aug 10 13:07:28] WARNING[1] loader.c: Module 'app_mysql' has been loaded but may be removed in a future release. Its replacement is 'func_odbc'.
+[Aug 10 13:07:28] WARNING[1] loader.c: Module 'app_ices' has been loaded but may be removed in a future release.
+[Aug 10 13:07:28] WARNING[1] loader.c: Module 'app_nbscat' has been loaded but may be removed in a future release.
+[Aug 10 13:07:28] ERROR[1] loader.c: cdr_sqlite3_custom declined to load.

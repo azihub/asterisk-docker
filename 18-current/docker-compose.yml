@@ -1,0 +1,58 @@
+version: '3.9'
+
+
+services:
+  asterisk:
+    # build: 
+    #   context: .
+    #   dockerfile: build.Dockerfile
+    image: azihub/asterisk:18
+    ports:
+      - 5060
+      - 5061
+      - 5038
+    depends_on: 
+      - mariadb
+    environment: 
+      DEBUG: "true"
+      MYSQL_DB_HOST: localhost
+      MYSQL_DB_PORT: 3306
+      MYSQL_DB_SOCKET: /var/run/mysqld/mysqld.sock
+      MYSQL_DB_NAME: ${MARIADB_DATABASE}
+      MYSQL_DB_USER: ${MARIADB_USER}
+      MYSQL_DB_PASS: ${MARIADB_PASSWORD}
+    volumes:
+      - mariadb_socket:/var/run/mysqld/
+      - ./docker-entrypoint.sh:/docker-entrypoint.sh
+      - ./configs/:/etc/asterisk/
+      - ./volumes/data:/var/lib/asterisk/data
+      - ./volumes/cache:/var/lib/aterisk/cache
+      - ./volumes/logs:/var/log/asterisk
+
+        
+  mariadb:
+    image: mariadb:10.6.3-focal
+    volumes:
+      - mariadb_socket:/var/run/mysqld
+    environment: 
+      MARIADB_DATABASE: ${MARIADB_DATABASE}
+      MARIADB_USER: ${MARIADB_USER}
+      MARIADB_PASSWORD: ${MARIADB_PASSWORD}
+      MARIADB_ROOT_PASSWORD: ${MARIADB_ROOT_PASSWORD}
+  
+  percona_tmp:
+      image: busybox
+      container_name: asterisk_18_tmp
+      command: ash -c "chown -R 1001:1001 /var/lib/mysql && chown -R 1001:1001 /var/run/mysqld && chown -R 1001:1001 /var/log/mysql && chown -R 1001:1001 /data/gcache && tail -f /dev/null"
+      volumes:
+        - mariadb_socket:/run/mysqld/
+        - mariadb_data:/var/lib/mysql
+        - mariadb_log:/var/log/mysql
+        - mariadb_gcache:/data/gcache
+
+volumes:
+  asterisk_socket:
+  mariadb_data:
+  mariadb_socket:
+  mariadb_log:
+  mariadb_gcache:
