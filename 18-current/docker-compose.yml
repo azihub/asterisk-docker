@@ -3,14 +3,15 @@ version: '3.9'
 
 services:
   asterisk:
-    # build: 
-    #   context: .
-    #   dockerfile: build.Dockerfile
-    image: azihub/asterisk:18
+    build: 
+       context: .
+       dockerfile: build.Dockerfile
+    #image: azihub/asterisk:18
     ports:
-      - 5060
-      - 5061
-      - 5038
+      - 5060:5060/udp
+      - 5060:5060/tcp
+      - 5061:5061/tcp
+      - 5038:5038
     depends_on: 
       - mariadb
     environment: 
@@ -29,6 +30,21 @@ services:
       - ./volumes/cache:/var/lib/aterisk/cache
       - ./volumes/logs:/var/log/asterisk
 
+  phpmyadmin:
+    image: phpmyadmin:latest
+    ports:
+      - 8088:80
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MARIADB_ROOT_PASSWORD}
+      PMA_ABSOLUTE_URI: ${PMA_ABSOLUTE_URI}
+      PMA_HOST: ${PMA_HOST}
+      PMA_SOCKET: /var/run/mysqld/mysqld.sock
+      PMA_CONTROLUSER: ${MARIADB_USER}
+      PMA_CONTROLPASS: ${MARIADB_PASSWORD}
+      UPLOAD_LIMIT: 10240M
+    volumes:
+      - mariadb_socket:/var/run/mysqld/
+      - ./phpmyadmin/config.user.inc.php:/etc/config.user.inc.php
         
   mariadb:
     image: mariadb:10.6.3-focal

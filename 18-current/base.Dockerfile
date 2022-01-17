@@ -29,6 +29,7 @@ RUN apt-get install -y --no-install-recommends --no-install-suggests \
     libvorbis-dev \
     libxml2-dev \
     libxslt1-dev \
+    net-tools \
     procps \
     portaudio19-dev \
     unixodbc \

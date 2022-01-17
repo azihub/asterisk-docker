@@ -759,3 +759,236 @@
 [Aug 10 13:07:28] WARNING[1] loader.c: Module 'app_ices' has been loaded but may be removed in a future release.
 [Aug 10 13:07:28] WARNING[1] loader.c: Module 'app_nbscat' has been loaded but may be removed in a future release.
 [Aug 10 13:07:28] ERROR[1] loader.c: cdr_sqlite3_custom declined to load.
+[Oct 27 16:09:51] Asterisk 18.7.1 built by root @ 4ba586e6f190 on a x86_64 running Linux on 2021-10-27 16:06:38 UTC
+[Oct 27 16:09:51] NOTICE[1] loader.c: 338 modules will be loaded.
+[Oct 27 16:09:51] NOTICE[1] cdr.c: CDR simple logging enabled.
+[Oct 27 16:09:51] WARNING[1] res_phoneprov.c: Unable to find a valid server address or name.
+[Oct 27 16:09:51] NOTICE[1] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[Oct 27 16:09:51] NOTICE[1] chan_skinny.c: Configuring skinny from skinny.conf
+[Oct 27 16:09:51] ERROR[1] ari/config.c: No configured users for ARI
+[Oct 27 16:09:51] NOTICE[1] confbridge/conf_config_parser.c: Adding default_menu menu to app_confbridge
+[Oct 27 16:09:51] NOTICE[1] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[Oct 27 16:09:52] WARNING[1] loader.c: Some non-required modules failed to load.
+[Oct 27 16:09:52] WARNING[1] loader.c: Module 'res_monitor' has been loaded but was deprecated in Asterisk version 16 and will be removed in Asterisk version 21. Its replacement is 'app_mixmonitor'.
+[Oct 27 16:09:52] WARNING[1] loader.c: Module 'res_pktccops' has been loaded but will be deprecated in Asterisk version 19 and will be removed in Asterisk version 21.
+[Oct 27 16:09:52] WARNING[1] loader.c: Module 'chan_mgcp' has been loaded but will be deprecated in Asterisk version 19 and will be removed in Asterisk version 21.
+[Oct 27 16:09:52] WARNING[1] loader.c: Module 'chan_skinny' has been loaded but will be deprecated in Asterisk version 19 and will be removed in Asterisk version 21.
+[Oct 27 16:09:52] WARNING[1] loader.c: Module 'res_adsi' has been loaded but may be removed in a future release.
+[Oct 27 16:09:52] WARNING[1] loader.c: Module 'app_url' has been loaded but was deprecated in Asterisk version 16 and will be removed in Asterisk version 19.
+[Oct 27 16:09:52] WARNING[1] loader.c: Module 'app_image' has been loaded but was deprecated in Asterisk version 16 and will be removed in Asterisk version 19.
+[Oct 27 16:09:52] WARNING[1] loader.c: Module 'chan_oss' has been loaded but was deprecated in Asterisk version 16 and will be removed in Asterisk version 19.
+[Oct 27 16:09:52] WARNING[1] loader.c: Module 'app_getcpeid' has been loaded but may be removed in a future release.
+[Oct 27 16:09:52] WARNING[1] loader.c: Module 'cdr_mysql' has been loaded but was deprecated in Asterisk version 1.8 and will be removed in Asterisk version 19. Its replacement is 'cdr_adaptive_odbc'.
+[Oct 27 16:09:52] WARNING[1] loader.c: Module 'app_adsiprog' has been loaded but may be removed in a future release.
+[Oct 27 16:09:52] WARNING[1] loader.c: Module 'app_mysql' has been loaded but was deprecated in Asterisk version 1.8 and will be removed in Asterisk version 19. Its replacement is 'func_odbc'.
+[Oct 27 16:09:52] WARNING[1] loader.c: Module 'app_ices' has been loaded but was deprecated in Asterisk version 16 and will be removed in Asterisk version 19.
+[Oct 27 16:09:52] WARNING[1] loader.c: Module 'app_nbscat' has been loaded but was deprecated in Asterisk version 16 and will be removed in Asterisk version 19.
+[Oct 27 16:09:52] ERROR[1] loader.c: cdr_sqlite3_custom declined to load.
+[Oct 27 16:31:14] Asterisk 18.7.1 built by root @ 4ba586e6f190 on a x86_64 running Linux on 2021-10-27 16:06:38 UTC
+[Oct 27 16:31:14] NOTICE[1] loader.c: 338 modules will be loaded.
+[Oct 27 16:31:14] NOTICE[1] cdr.c: CDR simple logging enabled.
+[Oct 27 16:31:14] WARNING[1] res_phoneprov.c: Unable to find a valid server address or name.
+[Oct 27 16:31:14] NOTICE[1] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[Oct 27 16:31:14] NOTICE[1] chan_skinny.c: Configuring skinny from skinny.conf
+[Oct 27 16:31:14] ERROR[1] ari/config.c: No configured users for ARI
+[Oct 27 16:31:14] NOTICE[1] confbridge/conf_config_parser.c: Adding default_menu menu to app_confbridge
+[Oct 27 16:31:14] NOTICE[1] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[Oct 27 16:31:15] WARNING[1] loader.c: Some non-required modules failed to load.
+[Oct 27 16:31:15] WARNING[1] loader.c: Module 'res_monitor' has been loaded but was deprecated in Asterisk version 16 and will be removed in Asterisk version 21. Its replacement is 'app_mixmonitor'.
+[Oct 27 16:31:15] WARNING[1] loader.c: Module 'res_pktccops' has been loaded but will be deprecated in Asterisk version 19 and will be removed in Asterisk version 21.
+[Oct 27 16:31:15] WARNING[1] loader.c: Module 'chan_mgcp' has been loaded but will be deprecated in Asterisk version 19 and will be removed in Asterisk version 21.
+[Oct 27 16:31:15] WARNING[1] loader.c: Module 'chan_skinny' has been loaded but will be deprecated in Asterisk version 19 and will be removed in Asterisk version 21.
+[Oct 27 16:31:15] WARNING[1] loader.c: Module 'res_adsi' has been loaded but may be removed in a future release.
+[Oct 27 16:31:15] WARNING[1] loader.c: Module 'app_url' has been loaded but was deprecated in Asterisk version 16 and will be removed in Asterisk version 19.
+[Oct 27 16:31:15] WARNING[1] loader.c: Module 'app_image' has been loaded but was deprecated in Asterisk version 16 and will be removed in Asterisk version 19.
+[Oct 27 16:31:15] WARNING[1] loader.c: Module 'chan_oss' has been loaded but was deprecated in Asterisk version 16 and will be removed in Asterisk version 19.
+[Oct 27 16:31:15] WARNING[1] loader.c: Module 'app_getcpeid' has been loaded but may be removed in a future release.
+[Oct 27 16:31:15] WARNING[1] loader.c: Module 'cdr_mysql' has been loaded but was deprecated in Asterisk version 1.8 and will be removed in Asterisk version 19. Its replacement is 'cdr_adaptive_odbc'.
+[Oct 27 16:31:15] WARNING[1] loader.c: Module 'app_adsiprog' has been loaded but may be removed in a future release.
+[Oct 27 16:31:15] WARNING[1] loader.c: Module 'app_mysql' has been loaded but was deprecated in Asterisk version 1.8 and will be removed in Asterisk version 19. Its replacement is 'func_odbc'.
+[Oct 27 16:31:15] WARNING[1] loader.c: Module 'app_ices' has been loaded but was deprecated in Asterisk version 16 and will be removed in Asterisk version 19.
+[Oct 27 16:31:15] WARNING[1] loader.c: Module 'app_nbscat' has been loaded but was deprecated in Asterisk version 16 and will be removed in Asterisk version 19.
+[Oct 27 16:31:15] ERROR[1] loader.c: cdr_sqlite3_custom declined to load.
+[Oct 27 16:33:55] Asterisk 18.7.1 built by root @ 4ba586e6f190 on a x86_64 running Linux on 2021-10-27 16:06:38 UTC
+[Oct 27 16:33:55] NOTICE[1] loader.c: 338 modules will be loaded.
+[Oct 27 16:33:55] NOTICE[1] cdr.c: CDR simple logging enabled.
+[Oct 27 16:33:55] WARNING[1] res_phoneprov.c: Unable to find a valid server address or name.
+[Oct 27 16:33:55] NOTICE[1] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[Oct 27 16:33:55] NOTICE[1] chan_skinny.c: Configuring skinny from skinny.conf
+[Oct 27 16:33:55] ERROR[1] ari/config.c: No configured users for ARI
+[Oct 27 16:33:55] NOTICE[1] confbridge/conf_config_parser.c: Adding default_menu menu to app_confbridge
+[Oct 27 16:33:55] NOTICE[1] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[Oct 27 16:33:55] WARNING[1] loader.c: Some non-required modules failed to load.
+[Oct 27 16:33:55] WARNING[1] loader.c: Module 'res_monitor' has been loaded but was deprecated in Asterisk version 16 and will be removed in Asterisk version 21. Its replacement is 'app_mixmonitor'.
+[Oct 27 16:33:55] WARNING[1] loader.c: Module 'res_pktccops' has been loaded but will be deprecated in Asterisk version 19 and will be removed in Asterisk version 21.
+[Oct 27 16:33:55] WARNING[1] loader.c: Module 'chan_mgcp' has been loaded but will be deprecated in Asterisk version 19 and will be removed in Asterisk version 21.
+[Oct 27 16:33:55] WARNING[1] loader.c: Module 'chan_skinny' has been loaded but will be deprecated in Asterisk version 19 and will be removed in Asterisk version 21.
+[Oct 27 16:33:56] WARNING[1] loader.c: Module 'res_adsi' has been loaded but may be removed in a future release.
+[Oct 27 16:33:56] WARNING[1] loader.c: Module 'app_url' has been loaded but was deprecated in Asterisk version 16 and will be removed in Asterisk version 19.
+[Oct 27 16:33:56] WARNING[1] loader.c: Module 'app_image' has been loaded but was deprecated in Asterisk version 16 and will be removed in Asterisk version 19.
+[Oct 27 16:33:56] WARNING[1] loader.c: Module 'chan_oss' has been loaded but was deprecated in Asterisk version 16 and will be removed in Asterisk version 19.
+[Oct 27 16:33:56] WARNING[1] loader.c: Module 'app_getcpeid' has been loaded but may be removed in a future release.
+[Oct 27 16:33:56] WARNING[1] loader.c: Module 'cdr_mysql' has been loaded but was deprecated in Asterisk version 1.8 and will be removed in Asterisk version 19. Its replacement is 'cdr_adaptive_odbc'.
+[Oct 27 16:33:56] WARNING[1] loader.c: Module 'app_adsiprog' has been loaded but may be removed in a future release.
+[Oct 27 16:33:56] WARNING[1] loader.c: Module 'app_mysql' has been loaded but was deprecated in Asterisk version 1.8 and will be removed in Asterisk version 19. Its replacement is 'func_odbc'.
+[Oct 27 16:33:56] WARNING[1] loader.c: Module 'app_ices' has been loaded but was deprecated in Asterisk version 16 and will be removed in Asterisk version 19.
+[Oct 27 16:33:56] WARNING[1] loader.c: Module 'app_nbscat' has been loaded but was deprecated in Asterisk version 16 and will be removed in Asterisk version 19.
+[Oct 27 16:33:56] ERROR[1] loader.c: cdr_sqlite3_custom declined to load.
+[Nov  3 04:07:12] Asterisk 18.7.1 built by root @ 4ba586e6f190 on a x86_64 running Linux on 2021-10-27 16:06:38 UTC
+[Nov  3 04:07:12] NOTICE[1] loader.c: 338 modules will be loaded.
+[Nov  3 04:07:12] NOTICE[1] cdr.c: CDR simple logging enabled.
+[Nov  3 04:07:12] WARNING[1] res_phoneprov.c: Unable to find a valid server address or name.
+[Nov  3 04:07:12] NOTICE[1] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[Nov  3 04:07:12] NOTICE[1] chan_skinny.c: Configuring skinny from skinny.conf
+[Nov  3 04:07:12] ERROR[1] ari/config.c: No configured users for ARI
+[Nov  3 04:07:12] NOTICE[1] confbridge/conf_config_parser.c: Adding default_menu menu to app_confbridge
+[Nov  3 04:07:12] NOTICE[1] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[Nov  3 04:07:12] WARNING[1] loader.c: Some non-required modules failed to load.
+[Nov  3 04:07:12] WARNING[1] loader.c: Module 'res_monitor' has been loaded but was deprecated in Asterisk version 16 and will be removed in Asterisk version 21. Its replacement is 'app_mixmonitor'.
+[Nov  3 04:07:12] WARNING[1] loader.c: Module 'res_pktccops' has been loaded but will be deprecated in Asterisk version 19 and will be removed in Asterisk version 21.
+[Nov  3 04:07:12] WARNING[1] loader.c: Module 'chan_mgcp' has been loaded but will be deprecated in Asterisk version 19 and will be removed in Asterisk version 21.
+[Nov  3 04:07:12] WARNING[1] loader.c: Module 'chan_skinny' has been loaded but will be deprecated in Asterisk version 19 and will be removed in Asterisk version 21.
+[Nov  3 04:07:12] WARNING[1] loader.c: Module 'res_adsi' has been loaded but may be removed in a future release.
+[Nov  3 04:07:12] WARNING[1] loader.c: Module 'app_url' has been loaded but was deprecated in Asterisk version 16 and will be removed in Asterisk version 19.
+[Nov  3 04:07:12] WARNING[1] loader.c: Module 'app_image' has been loaded but was deprecated in Asterisk version 16 and will be removed in Asterisk version 19.
+[Nov  3 04:07:13] WARNING[1] loader.c: Module 'chan_oss' has been loaded but was deprecated in Asterisk version 16 and will be removed in Asterisk version 19.
+[Nov  3 04:07:13] WARNING[1] loader.c: Module 'app_getcpeid' has been loaded but may be removed in a future release.
+[Nov  3 04:07:13] WARNING[1] loader.c: Module 'cdr_mysql' has been loaded but was deprecated in Asterisk version 1.8 and will be removed in Asterisk version 19. Its replacement is 'cdr_adaptive_odbc'.
+[Nov  3 04:07:13] WARNING[1] loader.c: Module 'app_adsiprog' has been loaded but may be removed in a future release.
+[Nov  3 04:07:13] WARNING[1] loader.c: Module 'app_mysql' has been loaded but was deprecated in Asterisk version 1.8 and will be removed in Asterisk version 19. Its replacement is 'func_odbc'.
+[Nov  3 04:07:13] WARNING[1] loader.c: Module 'app_ices' has been loaded but was deprecated in Asterisk version 16 and will be removed in Asterisk version 19.
+[Nov  3 04:07:13] WARNING[1] loader.c: Module 'app_nbscat' has been loaded but was deprecated in Asterisk version 16 and will be removed in Asterisk version 19.
+[Nov  3 04:07:13] ERROR[1] loader.c: cdr_sqlite3_custom declined to load.
+[Nov  3 04:13:02] Asterisk 18.7.1 built by root @ 4ba586e6f190 on a x86_64 running Linux on 2021-10-27 16:06:38 UTC
+[Nov  3 04:13:03] NOTICE[1] loader.c: 338 modules will be loaded.
+[Nov  3 04:13:03] NOTICE[1] cdr.c: CDR simple logging enabled.
+[Nov  3 04:13:03] WARNING[1] res_phoneprov.c: Unable to find a valid server address or name.
+[Nov  3 04:13:03] NOTICE[1] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[Nov  3 04:13:03] NOTICE[1] chan_skinny.c: Configuring skinny from skinny.conf
+[Nov  3 04:13:03] ERROR[1] ari/config.c: No configured users for ARI
+[Nov  3 04:13:03] NOTICE[1] confbridge/conf_config_parser.c: Adding default_menu menu to app_confbridge
+[Nov  3 04:13:03] NOTICE[1] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[Nov  3 04:13:03] WARNING[1] loader.c: Some non-required modules failed to load.
+[Nov  3 04:13:03] WARNING[1] loader.c: Module 'res_monitor' has been loaded but was deprecated in Asterisk version 16 and will be removed in Asterisk version 21. Its replacement is 'app_mixmonitor'.
+[Nov  3 04:13:03] WARNING[1] loader.c: Module 'res_pktccops' has been loaded but will be deprecated in Asterisk version 19 and will be removed in Asterisk version 21.
+[Nov  3 04:13:03] WARNING[1] loader.c: Module 'chan_mgcp' has been loaded but will be deprecated in Asterisk version 19 and will be removed in Asterisk version 21.
+[Nov  3 04:13:03] WARNING[1] loader.c: Module 'chan_skinny' has been loaded but will be deprecated in Asterisk version 19 and will be removed in Asterisk version 21.
+[Nov  3 04:13:03] WARNING[1] loader.c: Module 'res_adsi' has been loaded but may be removed in a future release.
+[Nov  3 04:13:03] WARNING[1] loader.c: Module 'app_url' has been loaded but was deprecated in Asterisk version 16 and will be removed in Asterisk version 19.
+[Nov  3 04:13:03] WARNING[1] loader.c: Module 'app_image' has been loaded but was deprecated in Asterisk version 16 and will be removed in Asterisk version 19.
+[Nov  3 04:13:03] WARNING[1] loader.c: Module 'chan_oss' has been loaded but was deprecated in Asterisk version 16 and will be removed in Asterisk version 19.
+[Nov  3 04:13:03] WARNING[1] loader.c: Module 'app_getcpeid' has been loaded but may be removed in a future release.
+[Nov  3 04:13:03] WARNING[1] loader.c: Module 'cdr_mysql' has been loaded but was deprecated in Asterisk version 1.8 and will be removed in Asterisk version 19. Its replacement is 'cdr_adaptive_odbc'.
+[Nov  3 04:13:03] WARNING[1] loader.c: Module 'app_adsiprog' has been loaded but may be removed in a future release.
+[Nov  3 04:13:03] WARNING[1] loader.c: Module 'app_mysql' has been loaded but was deprecated in Asterisk version 1.8 and will be removed in Asterisk version 19. Its replacement is 'func_odbc'.
+[Nov  3 04:13:03] WARNING[1] loader.c: Module 'app_ices' has been loaded but was deprecated in Asterisk version 16 and will be removed in Asterisk version 19.
+[Nov  3 04:13:03] WARNING[1] loader.c: Module 'app_nbscat' has been loaded but was deprecated in Asterisk version 16 and will be removed in Asterisk version 19.
+[Nov  3 04:13:03] ERROR[1] loader.c: cdr_sqlite3_custom declined to load.
+[Nov  3 04:25:43] Asterisk 18.7.1 built by root @ 4ba586e6f190 on a x86_64 running Linux on 2021-10-27 16:06:38 UTC
+[Nov  3 04:25:43] NOTICE[1] loader.c: 338 modules will be loaded.
+[Nov  3 04:25:43] NOTICE[1] cdr.c: CDR simple logging enabled.
+[Nov  3 04:25:43] WARNING[1] sorcery.c: Wizard 'realtime' failed to open mapping for object type 'contact' with data: ps_contacts
+[Nov  3 04:25:43] ERROR[1] sorcery.c: Error attempting to apply configuration res_pjsip to sorcery.
+[Nov  3 04:25:43] ERROR[1] res_pjsip/config_system.c: Failed to open SIP system sorcery
+[Nov  3 04:25:43] ERROR[1] res_pjsip.c: Failed to initialize SIP 'system' configuration section. Aborting load
+[Nov  3 04:25:43] WARNING[1] res_phoneprov.c: Unable to find a valid server address or name.
+[Nov  3 04:25:43] NOTICE[1] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[Nov  3 04:25:43] NOTICE[1] chan_skinny.c: Configuring skinny from skinny.conf
+[Nov  3 04:25:43] ERROR[1] ari/config.c: No configured users for ARI
+[Nov  3 04:25:43] NOTICE[1] confbridge/conf_config_parser.c: Adding default_menu menu to app_confbridge
+[Nov  3 04:25:44] NOTICE[1] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[Nov  3 04:25:44] WARNING[1] loader.c: Some non-required modules failed to load.
+[Nov  3 04:25:44] WARNING[1] loader.c: Module 'res_monitor' has been loaded but was deprecated in Asterisk version 16 and will be removed in Asterisk version 21. Its replacement is 'app_mixmonitor'.
+[Nov  3 04:25:44] WARNING[1] loader.c: Module 'res_pktccops' has been loaded but will be deprecated in Asterisk version 19 and will be removed in Asterisk version 21.
+[Nov  3 04:25:44] WARNING[1] loader.c: Module 'chan_mgcp' has been loaded but will be deprecated in Asterisk version 19 and will be removed in Asterisk version 21.
+[Nov  3 04:25:44] WARNING[1] loader.c: Module 'chan_skinny' has been loaded but will be deprecated in Asterisk version 19 and will be removed in Asterisk version 21.
+[Nov  3 04:25:44] WARNING[1] loader.c: Module 'res_adsi' has been loaded but may be removed in a future release.
+[Nov  3 04:25:44] WARNING[1] loader.c: Module 'app_url' has been loaded but was deprecated in Asterisk version 16 and will be removed in Asterisk version 19.
+[Nov  3 04:25:44] WARNING[1] loader.c: Module 'app_image' has been loaded but was deprecated in Asterisk version 16 and will be removed in Asterisk version 19.
+[Nov  3 04:25:44] WARNING[1] loader.c: Module 'chan_oss' has been loaded but was deprecated in Asterisk version 16 and will be removed in Asterisk version 19.
+[Nov  3 04:25:44] WARNING[1] loader.c: Module 'app_getcpeid' has been loaded but may be removed in a future release.
+[Nov  3 04:25:44] WARNING[1] loader.c: Module 'cdr_mysql' has been loaded but was deprecated in Asterisk version 1.8 and will be removed in Asterisk version 19. Its replacement is 'cdr_adaptive_odbc'.
+[Nov  3 04:25:44] WARNING[1] loader.c: Module 'app_adsiprog' has been loaded but may be removed in a future release.
+[Nov  3 04:25:44] WARNING[1] loader.c: Module 'app_mysql' has been loaded but was deprecated in Asterisk version 1.8 and will be removed in Asterisk version 19. Its replacement is 'func_odbc'.
+[Nov  3 04:25:44] WARNING[1] loader.c: Module 'app_ices' has been loaded but was deprecated in Asterisk version 16 and will be removed in Asterisk version 19.
+[Nov  3 04:25:44] WARNING[1] loader.c: Module 'app_nbscat' has been loaded but was deprecated in Asterisk version 16 and will be removed in Asterisk version 19.
+[Nov  3 04:25:44] ERROR[1] loader.c: res_pjsip declined to load.
+[Nov  3 04:25:44] ERROR[1] loader.c: Declined modules which depend on res_pjsip: res_pjsip_authenticator_digest, res_pjsip_endpoint_identifier_user, res_pjsip_endpoint_identifier_ip, res_pjsip_registrar, res_pjsip_pubsub, res_pjsip_pidf_eyebeam_body_supplement, res_pjsip_xpidf_body_generator, res_pjsip_outbound_authenticator_digest, res_pjsip_pidf_digium_body_supplement, res_pjsip_outbound_publish, res_pjsip_mwi_body_generator, res_pjsip_dialog_info_body_generator, res_pjsip_pidf_body_generator, res_pjsip_mwi, res_pjsip_exten_state, res_pjsip_publish_asterisk, res_pjsip_t38, chan_pjsip, res_pjsip_sdp_rtp, res_pjsip_acl, res_pjsip_diversion, res_pjsip_caller_id, res_pjsip_empty_info, res_pjsip_nat, res_pjsip_history, res_pjsip_transport_websocket, res_pjsip_rfc3326, res_pjsip_one_touch_record_info, res_pjsip_sips_contact, res_pjsip_notify, res_pjsip_logger, res_pjsip_session, res_pjsip_path, res_pjsip_dlg_options, res_pjsip_phoneprov_provider, res_pjsip_outbound_registration, res_pjsip_dtmf_info, res_pjsip_messaging, res_pjsip_refer, res_pjsip_header_funcs, res_pjsip_send_to_voicemail, func_pjsip_aor, res_prometheus, func_pjsip_endpoint, res_pjsip_stir_shaken, res_pjsip_endpoint_identifier_anonymous, func_pjsip_contact
+[Nov  3 04:25:44] ERROR[1] loader.c: cdr_sqlite3_custom declined to load.
+[Nov  3 04:26:58] WARNING[82] sorcery.c: Wizard 'realtime' failed to open mapping for object type 'contact' with data: ps_contacts
+[Nov  3 04:26:58] ERROR[82] sorcery.c: Error attempting to apply configuration res_pjsip to sorcery.
+[Nov  3 04:26:58] ERROR[82] res_pjsip/config_system.c: Failed to open SIP system sorcery
+[Nov  3 04:26:58] ERROR[82] res_pjsip.c: Failed to initialize SIP 'system' configuration section. Aborting load
+[Nov  3 04:30:24] WARNING[82] config.c: Unknown directive '#contact=realtime,ps_contacts' at line 85 of /etc/asterisk/sorcery.conf
+[Nov  3 04:30:24] WARNING[82] res_config_mysql.c: MySQL RealTime: Invalid database specified: 'asterisk' (check res_mysql.conf)
+[Nov  3 04:30:24] WARNING[86] res_config_mysql.c: MySQL RealTime: Invalid database specified: 'asterisk' (check res_mysql.conf)
+[Nov  3 04:30:24] WARNING[86] res_config_mysql.c: MySQL RealTime: Invalid database specified: 'asterisk' (check res_mysql.conf)
+[Nov  3 04:31:28] WARNING[100] loader.c: Module 'res_pjsip.so' already loaded and running.
+[Nov  3 04:31:38] NOTICE[101] sorcery.c: Type 'system' is not reloadable, maintaining previous values
+[Nov  3 04:31:38] WARNING[102] res_config_mysql.c: MySQL RealTime: Invalid database specified: 'asterisk' (check res_mysql.conf)
+[Nov  3 04:31:38] WARNING[102] res_config_mysql.c: MySQL RealTime: Invalid database specified: 'asterisk' (check res_mysql.conf)
+[Nov  3 04:31:40] NOTICE[101] sorcery.c: Type 'system' is not reloadable, maintaining previous values
+[Nov  3 04:31:40] WARNING[102] res_config_mysql.c: MySQL RealTime: Invalid database specified: 'asterisk' (check res_mysql.conf)
+[Nov  3 04:31:40] WARNING[102] res_config_mysql.c: MySQL RealTime: Invalid database specified: 'asterisk' (check res_mysql.conf)
+[Nov  3 04:33:29] Asterisk 18.7.1 built by root @ 4ba586e6f190 on a x86_64 running Linux on 2021-10-27 16:06:38 UTC
+[Nov  3 04:33:29] NOTICE[1] loader.c: 338 modules will be loaded.
+[Nov  3 04:33:30] NOTICE[1] cdr.c: CDR simple logging enabled.
+[Nov  3 04:33:30] WARNING[1] config.c: Unknown directive '#contact=realtime,ps_contacts' at line 85 of /etc/asterisk/sorcery.conf
+[Nov  3 04:33:30] WARNING[1] config.c: Unknown directive '#contact=realtime,ps_contacts' at line 85 of /etc/asterisk/sorcery.conf
+[Nov  3 04:33:30] WARNING[1] config.c: Unknown directive '#contact=realtime,ps_contacts' at line 85 of /etc/asterisk/sorcery.conf
+[Nov  3 04:33:30] WARNING[37] res_config_mysql.c: MySQL RealTime: Invalid database specified: 'asterisk' (check res_mysql.conf)
+[Nov  3 04:33:30] WARNING[1] config.c: Unknown directive '#contact=realtime,ps_contacts' at line 85 of /etc/asterisk/sorcery.conf
+[Nov  3 04:33:30] WARNING[1] config.c: Unknown directive '#contact=realtime,ps_contacts' at line 85 of /etc/asterisk/sorcery.conf
+[Nov  3 04:33:30] WARNING[1] res_phoneprov.c: Unable to find a valid server address or name.
+[Nov  3 04:33:30] NOTICE[1] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[Nov  3 04:33:30] WARNING[1] config.c: Unknown directive '#contact=realtime,ps_contacts' at line 85 of /etc/asterisk/sorcery.conf
+[Nov  3 04:33:30] WARNING[1] config.c: Unknown directive '#contact=realtime,ps_contacts' at line 85 of /etc/asterisk/sorcery.conf
+[Nov  3 04:33:30] WARNING[1] config.c: Unknown directive '#contact=realtime,ps_contacts' at line 85 of /etc/asterisk/sorcery.conf
+[Nov  3 04:33:30] NOTICE[1] chan_skinny.c: Configuring skinny from skinny.conf
+[Nov  3 04:33:30] WARNING[1] config.c: Unknown directive '#contact=realtime,ps_contacts' at line 85 of /etc/asterisk/sorcery.conf
+[Nov  3 04:33:30] ERROR[1] ari/config.c: No configured users for ARI
+[Nov  3 04:33:30] WARNING[1] config.c: Unknown directive '#contact=realtime,ps_contacts' at line 85 of /etc/asterisk/sorcery.conf
+[Nov  3 04:33:30] WARNING[1] config.c: Unknown directive '#contact=realtime,ps_contacts' at line 85 of /etc/asterisk/sorcery.conf
+[Nov  3 04:33:30] NOTICE[1] confbridge/conf_config_parser.c: Adding default_menu menu to app_confbridge
+[Nov  3 04:33:30] NOTICE[1] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[Nov  3 04:33:30] WARNING[1] loader.c: Some non-required modules failed to load.
+[Nov  3 04:33:30] WARNING[1] loader.c: Module 'res_monitor' has been loaded but was deprecated in Asterisk version 16 and will be removed in Asterisk version 21. Its replacement is 'app_mixmonitor'.
+[Nov  3 04:33:30] WARNING[1] loader.c: Module 'res_pktccops' has been loaded but will be deprecated in Asterisk version 19 and will be removed in Asterisk version 21.
+[Nov  3 04:33:30] WARNING[1] loader.c: Module 'chan_mgcp' has been loaded but will be deprecated in Asterisk version 19 and will be removed in Asterisk version 21.
+[Nov  3 04:33:30] WARNING[1] loader.c: Module 'chan_skinny' has been loaded but will be deprecated in Asterisk version 19 and will be removed in Asterisk version 21.
+[Nov  3 04:33:30] WARNING[1] loader.c: Module 'res_adsi' has been loaded but may be removed in a future release.
+[Nov  3 04:33:30] WARNING[1] loader.c: Module 'app_url' has been loaded but was deprecated in Asterisk version 16 and will be removed in Asterisk version 19.
+[Nov  3 04:33:30] WARNING[1] loader.c: Module 'app_image' has been loaded but was deprecated in Asterisk version 16 and will be removed in Asterisk version 19.
+[Nov  3 04:33:30] WARNING[1] loader.c: Module 'chan_oss' has been loaded but was deprecated in Asterisk version 16 and will be removed in Asterisk version 19.
+[Nov  3 04:33:30] WARNING[1] loader.c: Module 'app_getcpeid' has been loaded but may be removed in a future release.
+[Nov  3 04:33:30] WARNING[1] loader.c: Module 'cdr_mysql' has been loaded but was deprecated in Asterisk version 1.8 and will be removed in Asterisk version 19. Its replacement is 'cdr_adaptive_odbc'.
+[Nov  3 04:33:30] WARNING[1] loader.c: Module 'app_adsiprog' has been loaded but may be removed in a future release.
+[Nov  3 04:33:30] WARNING[1] loader.c: Module 'app_mysql' has been loaded but was deprecated in Asterisk version 1.8 and will be removed in Asterisk version 19. Its replacement is 'func_odbc'.
+[Nov  3 04:33:30] WARNING[1] loader.c: Module 'app_ices' has been loaded but was deprecated in Asterisk version 16 and will be removed in Asterisk version 19.
+[Nov  3 04:33:30] WARNING[1] loader.c: Module 'app_nbscat' has been loaded but was deprecated in Asterisk version 16 and will be removed in Asterisk version 19.
+[Nov  3 04:33:30] ERROR[1] loader.c: cdr_sqlite3_custom declined to load.
+[Nov  3 04:33:59] WARNING[99] res_config_mysql.c: MySQL RealTime: Invalid database specified: asterisk (check res_mysql.conf)
+[Nov  3 04:33:59] WARNING[99] res_config_mysql.c: MySQL RealTime: Invalid database specified: asterisk (check res_mysql.conf)
+[Nov  3 04:33:59] WARNING[99] res_config_mysql.c: MySQL RealTime: Invalid database specified: 'asterisk' (check res_mysql.conf)
+[Nov  3 04:33:59] WARNING[99] res_config_mysql.c: MySQL RealTime: Invalid database specified: asterisk (check res_mysql.conf)
+[Nov  3 04:33:59] WARNING[99] res_config_mysql.c: MySQL RealTime: Invalid database specified: asterisk (check res_mysql.conf)
+[Nov  3 04:33:59] WARNING[99] res_config_mysql.c: MySQL RealTime: Invalid database specified: 'asterisk' (check res_mysql.conf)
+[Nov  3 04:35:13] NOTICE[100] sorcery.c: Type 'system' is not reloadable, maintaining previous values
+[Nov  3 04:35:13] WARNING[101] res_config_mysql.c: MySQL RealTime: Invalid database specified: 'asterisk' (check res_mysql.conf)
+[Nov  3 04:37:02] NOTICE[107] sorcery.c: Type 'system' is not reloadable, maintaining previous values
+[Nov  3 04:37:02] WARNING[108] res_config_mysql.c: MySQL RealTime: Invalid database specified: 'asterisk' (check res_mysql.conf)
+[Nov  3 04:39:12] NOTICE[116] sorcery.c: Type 'system' is not reloadable, maintaining previous values
+[Nov  3 04:39:12] WARNING[117] res_config_mysql.c: MySQL RealTime: Invalid database specified: 'asterisk' (check res_mysql.conf)
+[Nov  3 04:39:17] NOTICE[116] sorcery.c: Type 'system' is not reloadable, maintaining previous values
+[Nov  3 04:39:17] WARNING[117] res_config_mysql.c: MySQL RealTime: Invalid database specified: 'asterisk' (check res_mysql.conf)
+[Nov  3 04:39:26] NOTICE[116] sorcery.c: Type 'system' is not reloadable, maintaining previous values
+[Nov  3 04:39:26] WARNING[117] res_config_mysql.c: MySQL RealTime: Invalid database specified: 'asterisk' (check res_mysql.conf)
+[Nov  3 04:39:31] Asterisk 18.7.1 built by root @ 4ba586e6f190 on a x86_64 running Linux on 2021-10-27 16:06:38 UTC
+[Nov  3 04:39:31] NOTICE[99] cdr.c: CDR simple logging enabled.
+[Nov  3 04:39:31] NOTICE[116] sorcery.c: Type 'system' is not reloadable, maintaining previous values
+[Nov  3 04:39:31] WARNING[99] res_phoneprov.c: Unable to find a valid server address or name.
+[Nov  3 04:39:31] NOTICE[99] chan_skinny.c: Configuring skinny from skinny.conf
+[Nov  3 04:39:31] ERROR[99] ari/config.c: No configured users for ARI
+[Nov  3 04:39:31] NOTICE[99] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[Nov  3 04:39:31] NOTICE[99] app_queue.c: queuerules.conf has not changed since it was last loaded. Not taking any action.
+[Nov  3 04:40:14] NOTICE[116] sorcery.c: Type 'system' is not reloadable, maintaining previous values

@@ -1,5 +1,5 @@
 # vim:set ft=dockerfile:
-FROM debian:buster-slim
+FROM ubuntu:focal
 
 LABEL maintainer="Mason Chase <public@masonian.com>"
 
@@ -10,8 +10,14 @@ RUN useradd --system asterisk
 #RUN adduser --gecos "" --no-create-home --uid 1000 --disabled-password asterisk
 
 RUN apt-get update -qq
-RUN export DEBIAN_FRONTEND=noninteractive
-RUN apt-get install -yq --no-install-recommends --no-install-suggests \
+#RUN apt-get install software-properties-common build-essential -y
+#RUN add-apt-repository ppa:ondrej/php
+ # --no-install-recommends --no-install-suggests 
+#RUN export DEBIAN_FRONTEND=noninteractive
+#RUN export TZ=Etc/UTC
+RUN ln -fs /usr/share/zoneinfo/Etc/UTC /etc/localtime
+RUN apt-get install --no-install-recommends --no-install-suggests -yq tzdata 
+RUN export DEBIAN_FRONTEND="noninteractive" ; apt-get install -yq \
     apt-utils \
     autoconf \
     binutils-dev \
@@ -43,19 +49,18 @@ RUN apt-get install -yq --no-install-recommends --no-install-suggests \
     ncurses-base ncurses-bin \
     opus-tools \
     odbcinst \
-    php8.0 \
+    php7.4 \
     python3 \
     python3-certbot python3-certbot-dns-cloudflare \
     procps \
     portaudio19-dev \
     subversion \
-    unixodbc \
-    unixodbc-bin \
-    unixodbc-dev \
     uuid \
     uuid-dev \
-    xmlstarlet
-
+    vim \
+    xmlstarlet 
+RUN apt-get install -y unixodbc unixodbc-dev python3-dev python3-pip python3-mysqldb
+RUN pip install alembic
 
 RUN apt-get purge -y --auto-remove
 RUN rm -rf /var/lib/apt/lists/*
@@ -63,7 +68,7 @@ RUN rm -rf /var/lib/apt/lists/*
 RUN mkdir -p /usr/src/asterisk && cd /usr/src/asterisk
 WORKDIR /usr/src/asterisk
 
-
+RUN curl -vsL https://downloads.mysql.com/archives/get/p/10/file/mysql-connector-odbc-8.0.17-linux-ubuntu19.04-x86-64bit.tar.gz | tar --strip-components 1 -xz
 RUN curl -vsL http://downloads.asterisk.org/pub/telephony/asterisk/asterisk-${ASTERISK_VERSION}-current.tar.gz | tar --strip-components 1 -xz
 RUN : ${JOBS:=$(( $(nproc) + $(nproc) / 2 ))}
 
